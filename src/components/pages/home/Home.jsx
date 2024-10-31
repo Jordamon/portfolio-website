@@ -15,7 +15,7 @@ const Home = () => {
         </div>
       <div className="languages">
         <div className="profile-container">
-        <Link to='/about'><img src={profilePicture} alt='a very handsome picture of myself'></img></Link>
+        <Link to='/about'><img src={profilePicture}></img></Link>
           <div className="col">
           <h3>Hi! My name is Jordan and I'm a web developer from Essex, UK.</h3>
           <div className="button-container">
