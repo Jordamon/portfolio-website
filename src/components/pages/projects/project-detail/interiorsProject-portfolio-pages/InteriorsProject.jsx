@@ -1,9 +1,9 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import interiorsScreenshot1 from '/Users/jordanhunt/Desktop/Web Dev Portfolio Projects/portfolio-website/src/images/interiors-screenshot/Screenshot 2024-02-15 at 21.12.47.png';
-import interiorsScreenshot4 from '/Users/jordanhunt/Desktop/Web Dev Portfolio Projects/portfolio-website/src/images/interiors-screenshot/Screenshot 2024-02-15 at 21.13.07.png';
-import interiorsScreenshot3 from '/Users/jordanhunt/Desktop/Web Dev Portfolio Projects/portfolio-website/src/images/interiors-screenshot/Screenshot 2024-02-15 at 21.13.19.png';
-import interiorsScreenshot2 from '/Users/jordanhunt/Desktop/Web Dev Portfolio Projects/portfolio-website/src/images/interiors-screenshot/Screenshot 2024-02-15 at 21.13.43.png';
+import interiorsScreenshot1 from '../../../../../images/interiors-screenshot/Screenshot 2024-02-15 at 21.12.47.png';
+import interiorsScreenshot4 from '../../../../../images/interiors-screenshot/Screenshot 2024-02-15 at 21.13.07.png';
+import interiorsScreenshot3 from '../../../../../images/interiors-screenshot/Screenshot 2024-02-15 at 21.13.19.png';
+import interiorsScreenshot2 from '../../../../../images/interiors-screenshot/Screenshot 2024-02-15 at 21.13.43.png';
 import './InteriorsProject.css';
 
 const InteriorsProject = () => {

@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import inspireScreenshot1 from '/Users/jordanhunt/Desktop/Web Dev Portfolio Projects/portfolio-website/src/images/inspire-screenshot/Screenshot 2024-02-15 at 21.09.07.png';
-import inspireScreenshot2 from '/Users/jordanhunt/Desktop/Web Dev Portfolio Projects/portfolio-website/src/images/inspire-screenshot/Screenshot 2024-02-15 at 21.09.21.png';
+import inspireScreenshot1 from '../../../../../images/inspire-screenshot/Screenshot 2024-02-15 at 21.09.07.png';
+import inspireScreenshot2 from '../../../../../images/inspire-screenshot/Screenshot 2024-02-15 at 21.09.21.png';
 import './InspireProject.css';
 
 const InspireProject = () => {

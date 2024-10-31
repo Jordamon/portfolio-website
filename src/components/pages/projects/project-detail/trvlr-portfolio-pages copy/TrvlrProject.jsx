@@ -1,9 +1,9 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import trvlrScreenshot1 from '/Users/jordanhunt/Desktop/Web Dev Portfolio Projects/portfolio-website/src/images/trvlr-screenshot/Screenshot 2024-02-15 at 21.11.00.png';
-import trvlrScreenshot4 from '/Users/jordanhunt/Desktop/Web Dev Portfolio Projects/portfolio-website/src/images/trvlr-screenshot/Screenshot 2024-02-15 at 21.11.38.png';
-import trvlrScreenshot3 from '/Users/jordanhunt/Desktop/Web Dev Portfolio Projects/portfolio-website/src/images/trvlr-screenshot/Screenshot 2024-02-15 at 21.11.51.png';
-import trvlrScreenshot2 from '/Users/jordanhunt/Desktop/Web Dev Portfolio Projects/portfolio-website/src/images/trvlr-screenshot/Screenshot 2024-02-15 at 21.12.02.png';
+import trvlrScreenshot1 from '../../../../../images/trvlr-screenshot/Screenshot 2024-02-15 at 21.11.00.png';
+import trvlrScreenshot4 from '../../../../../images/trvlr-screenshot/Screenshot 2024-02-15 at 21.11.38.png';
+import trvlrScreenshot3 from '../../../../../images/trvlr-screenshot/Screenshot 2024-02-15 at 21.11.51.png';
+import trvlrScreenshot2 from '../../../../../images/trvlr-screenshot/Screenshot 2024-02-15 at 21.12.02.png';
 import './TrvlrProject.css';
 
 const TrvlrProject = () => {
