@@ -1,0 +1,74 @@
+.navbar{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    z-index: 10;
+}
+.navbarList{
+    margin-right: 20px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+.listItem{
+    margin-right: 30px;
+    font-size: 25px;
+    cursor: pointer;
+
+}
+.listItem:hover {
+    background-color: #333; 
+    color: #fff; 
+}
+  .navbar-toggle {
+    display: none; /* Initially hidden */
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+  }
+/* Media query for screens smaller than 600px */
+@media screen and (max-width: 600px) {
+    .navbar {
+      justify-content: flex-start; /* Adjust alignment for the menu icon */
+    }
+  
+    /* Hide the menu by default on smaller screens */
+    .navbarList {
+      display: none;
+      flex-direction: column; /* Stack menu items vertically */
+      background-color: rgba(51, 51, 51, 0.849);
+      position: absolute;
+      top: 60px; /* Adjust this value based on your design */
+      right: -10;
+      width: 100%;
+      text-align: right;
+    }
+  
+    .navbarList.show {
+      display: flex; /* Display the menu when it's toggled */
+    }
+  
+    .listItem {
+      padding: 15px;
+      font-size: 18px; /* Adjust the font size for smaller screens */
+      cursor: pointer;
+      color: #fff;
+    }
+  
+    /* Add a hover effect for smaller screen menu items */
+    .listItem:hover {
+      background-color: #555;
+    }
+    .navbar-toggle{
+        display: block;
+        position: fixed;
+        right: 0%;
+        top: 0%;
+        font-size: 50px;
+    }
+  }
