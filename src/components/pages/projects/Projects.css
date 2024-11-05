@@ -2,6 +2,42 @@
     width: 100vw;
 }
 
+.background-container-projects {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 2550px;
+    overflow: hidden;
+    z-index: -1;  
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: 
+      url('../../../images/Simple Cityscape In Animation Style (1).png'),
+      url('../../../images/Simple Cityscape In Animation Style (1).png');
+    background-position: top center, bottom center;
+    background-size: contain;
+  }
+  
+  /* Flipping the second instance upside down */
+  .background-container-projects::after {
+    content: "";
+    position: absolute;
+    top: 100%; /* Position the second image directly below the first */
+    left: 0;
+    width: 100vw;
+    height: 5000px;
+    background-image: url('../../../images/Simple Cityscape In Animation Style (1).png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+    transform: rotate(180deg) scaleX(-1);
+    transform-origin: top; /* Rotate from the top edge to align properly */
+    z-index: -1;
+  }
+  
+  
+
+
 .portfolio-title h1{
     font-size: 64px;
     position: relative;
@@ -16,7 +52,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 5% auto 0 auto;
+    margin: 15% auto 0 auto;
     padding-bottom: 5%;
 }
 

@@ -23,9 +23,7 @@ const Contact = () => {
 
   return (
     <div>
-      <div className="contact-page">
-      <div className="video-container">
-      </div>
+      <div className="contact-page background-container">
       <div className="intro-text contact-text">
         <h1>CONTACT</h1>
         </div>

@@ -9,7 +9,7 @@ import './TrvlrProject.css';
 const TrvlrProject = () => {
   return (
     <div className="projects-highlight">
-      <div className="background-container">
+      <div className="background-container-projects">
       </div>
       <div className="portfolio-title-highlight">
           <h1>PROJECT PORTFOLIO</h1>

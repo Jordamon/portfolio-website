@@ -16,7 +16,7 @@ const Home = () => {
         <h2>Web Development Portfolio</h2>
         </div>
       <div className="languages">
-        <div className="profile-container">
+        <div className="profile-container frosted-container">
         <Link to='/about'>
           <img src={profilePicture} alt="Profile of Jordan Hunt" />
         </Link>
@@ -29,7 +29,7 @@ const Home = () => {
           </div>
           </div>
         </div>
-        <div className="main">
+        <div className="main frosted-container">
           <h2 className='title'>Here are my core languages:</h2>
           <div className="core-languages">
             <div className="html language-details">
@@ -52,7 +52,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="other">
+        <div className="other frosted-container">
           <h2 className='title'>And here are some others that I have experience in:</h2>
           <div className="other-languages">
             <div className="node JS language-details">
@@ -75,11 +75,12 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div className="link-to-projects">
+      
+      <div className="link-to-projects frosted-container">
         <h3>Click below to see my work!</h3>
         <Link to='/projects'><button className='explore-btn'>Explore Portfolio</button></Link>
       </div>
+    </div>
     </div>
   );
 }
