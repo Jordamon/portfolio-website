@@ -100,20 +100,30 @@ h2 {
 }
 .main{
     width: 50%;
-    height: auto;
+    height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 3%;
+    margin: 0;
+    text-align: center;
 }
 .other{
     width: 50%;
-    height: auto;
+    height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    margin-left: 2%;
+}
+.skills{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
 }
 .link-to-projects{
     display: flex;
