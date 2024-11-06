@@ -11,6 +11,8 @@ const MoveItProject = () => {
     <div className="projects-highlight">
       <div className="background-container-projects">
       </div>
+      <div className="background-container-projects2">
+      </div>
       <div className="portfolio-title-highlight">
           <h1>PROJECT PORTFOLIO</h1>
       </div>

@@ -28,7 +28,7 @@ const Contact = () => {
         <h1>CONTACT</h1>
         </div>
       <div className="contact-container">
-          <form onSubmit={handleSubmit}>
+          <form onSubmit={handleSubmit} className='frosted-container'>
             <h3 className=''>GET IN TOUCH</h3>
             <input
               type="text"
