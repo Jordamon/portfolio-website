@@ -131,8 +131,9 @@ h2 {
     justify-content: center;
     align-items: center;
     margin-top: 3%;
+    padding: 2%;
     width: 50%;
-    height: auto;
+    height: 4%;
 }
 .explore-btn{
     width: 80%;
