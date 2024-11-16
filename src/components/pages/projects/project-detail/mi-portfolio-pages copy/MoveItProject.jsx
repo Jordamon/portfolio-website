@@ -13,32 +13,34 @@ const MoveItProject = () => {
       </div>
       <div className="background-container-projects2">
       </div>
+      <div className="background-container-projects3">
+      </div>
       <div className="portfolio-title-highlight">
           <h1>PROJECT PORTFOLIO</h1>
       </div>
-      <div className='projects-container-highlight'>
-        <div className='moveit individual-project-highlight m1'>
+      <div className='moveit-projects-container-highlight'>
+        <div className='individual-project-highlight m1'>
           <div className="move-it-homepage-img-highlight"><Link to="/MoveIt"><img src={moveitScreenshot1} alt="Screenshot 1" /></Link></div>
           <div className="project-text-highlight">
             <h2>Move it Gym-wear E-commerce Website</h2>
             <p>Project Summary</p>
           </div>
         </div>
-        <div className='moveit individual-project-highlight m2'>
+        <div className='individual-project-highlight m2'>
         <div className="project-text-highlight">
             <h2>Move it Gym-wear E-commerce Website</h2>
             <p>Project Summary</p>
           </div>
           <div className="move-it-homepage-img right-project"><Link to="/MoveIt"><img src={moveitScreenshot2} alt="Screenshot 1" /></Link></div>
           </div>
-        <div className='moveit individual-project-highlight m3'>
+        <div className='individual-project-highlight m3'>
           <div className="move-it-homepage-img"><Link to="/MoveIt"><img src={moveitScreenshot3} alt="Screenshot 1" /></Link></div>
           <div className="project-text-highlight">
             <h2>Move it Gym-wear E-commerce Website</h2>
             <p>Project Summary</p>
           </div>
           </div>
-        <div className='moveit individual-project-highlight m4'>
+        <div className='individual-project-highlight m4'>
           <div className="project-text-highlight">
             <h2>Move it Gym-wear E-commerce Website</h2>
             <p>Project Summary</p>

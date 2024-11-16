@@ -35,7 +35,7 @@
   }
   .background-container-projects2 {
     position: absolute;
-    top: 2400px;
+    top: 2200px;
     width: 100vw;
     height: 2550px;
     overflow: hidden;
@@ -63,6 +63,21 @@
     transform: rotate(180deg) scaleX(-1);
     transform-origin: top; /* Rotate from the top edge to align properly */
     z-index: -1;
+  }
+
+  .background-container-projects3 {
+    position: absolute;
+    top: 4000px;
+    width: 100vw;
+    height: 2350px;
+    overflow: hidden;
+    z-index: -1;  
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: 
+      url('../../../images/Simple Cityscape In Animation Style (1).png');
+    background-position: top center, bottom center;
+    background-size: contain;
   }
   
 .portfolio-title h1{
@@ -98,6 +113,22 @@
     backdrop-filter: saturate(180% )blur(15px);
     border: solid white 1px;
     cursor: pointer;
+}
+
+.individual-project-highlight {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 40vh;
+  background-color: rgba(0,0,0,0);
+  backdrop-filter: blur(15px);
+  transform: scale(1);
+  border-radius: 25px;
+  -webkit-backdrop-filter: saturate(180% )blur(15px);
+  backdrop-filter: saturate(180% )blur(15px);
+  border: solid white 1px;
+  cursor: pointer;
 }
 
 .project-text {

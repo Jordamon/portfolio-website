@@ -20,23 +20,6 @@
     padding-bottom: 5%;
 }
 
-.individual-project-highlight {
-    margin: 3% 3% 40% 3%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    height: 40vh;
-    background-color: rgba(0,0,0,0);
-    backdrop-filter: blur(15px);
-    transform: scale(1);
-    border-radius: 25px;
-    -webkit-backdrop-filter: saturate(180% )blur(15px);
-    backdrop-filter: saturate(180% )blur(15px);
-    border: solid white 1px;
-    cursor: pointer;
-}
-
 .individual-project-highlight img {
     position: relative;
     bottom: 100px;
@@ -65,19 +48,19 @@
     left: 10%;
 }
 
-.m1 {
+.t1 {
     margin-top: 100px;
 }
-.m1 img {
+.t1 img {
     width: 80%;
     height: 5%;
 }
-.m2 {
+.t2 {
     margin-top: 1200px;
 }
-.m3 {
+.t3 {
     margin-top: 900px;
 }
-.m4 {
+.t4 {
     margin-top: 30px;
 }
