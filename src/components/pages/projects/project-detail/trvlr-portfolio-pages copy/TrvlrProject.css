@@ -14,7 +14,7 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     margin: 5% auto 0 auto;
     padding-bottom: 5%;
@@ -49,18 +49,21 @@
 }
 
 .t1 {
-    margin-top: 100px;
+    margin-top: 5%;
 }
-.t1 img {
+/* .t1 img {
     width: 80%;
-    height: 5%;
-}
+    height: 10%;
+} */
 .t2 {
-    margin-top: 1200px;
+    margin-top: 150px;
 }
 .t3 {
-    margin-top: 900px;
+    margin-top: 130px;
 }
 .t4 {
-    margin-top: 30px;
+    margin-top: 130px;
+}
+.trvlrBtn {
+    margin-top: 70px;
 }

@@ -1,9 +1,9 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import moveitScreenshot1 from '../../../../../images/moveit-screenshot/localhost_3001_.png';
-import moveitScreenshot4 from '../../../../../images/moveit-screenshot/localhost_3001_product_product6.png';
-import moveitScreenshot3 from '../../../../../images/moveit-screenshot/localhost_3001_product_product6 (1).png';
-import moveitScreenshot2 from '../../../../../images/moveit-screenshot/localhost_3001_products (4).png';
+import moveitScreenshot1 from '../../screenshots/moveit-screenshot/localhost_3001_.png';
+import moveitScreenshot4 from '../../screenshots/moveit-screenshot/localhost_3001_product_product6.png';
+import moveitScreenshot3 from '../../screenshots/moveit-screenshot/localhost_3001_product_product6 (1).png';
+import moveitScreenshot2 from '../../screenshots/moveit-screenshot/localhost_3001_products (4).png';
 import './MoveItProject.css';
 
 const MoveItProject = () => {
@@ -47,7 +47,9 @@ const MoveItProject = () => {
           </div>
           <div className="move-it-homepage-img right-project"><Link to="/MoveIt"><img src={moveitScreenshot4} alt="Screenshot 1" /></Link></div>
         </div>
-
+        <div className="button-container frosted-container moveItBtn">
+          <a href="https://moveitv2.netlify.app/" target='blank' rel="noopener noreferrer" className='explore-btn'>Try out this site!</a>
+        </div>
     
     </div>
     </div>
