@@ -9,42 +9,30 @@ const Navbar = () => {
     setShowMenu(!showMenu);
   };
 
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth',
-    });
-  };
-
-  const handleToggleClick = () => {
-    toggleMenu();
-    scrollToTop();
-  };
-
   return (
     <div className='navbar'>
       <nav>
-        <div className='navbar-toggle' onClick={handleToggleClick}>
+        <div className='navbar-toggle' onClick={toggleMenu}>
           &#9776;
         </div>
         <ul className={`navbarList ${showMenu ? 'show' : ''}`}>
           <li className='listItem'>
-            <Link to='/' onClick={handleToggleClick}>
+            <Link to='/' onClick={toggleMenu}>
               Home
             </Link>
           </li>
           <li className='listItem'>
-            <Link to='/projects' onClick={handleToggleClick}>
+            <Link to='/projects' onClick={toggleMenu}>
               Projects
             </Link>
           </li>
           <li className='listItem'>
-            <Link to='/about' onClick={handleToggleClick}>
+            <Link to='/about' onClick={toggleMenu}>
               About
             </Link>
           </li>
           <li className='listItem'>
-            <Link to='/contact' onClick={handleToggleClick}>
+            <Link to='/contact' onClick={toggleMenu}>
               Contact
             </Link>
           </li>

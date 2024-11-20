@@ -6,6 +6,7 @@ import Home from './components/pages/home/Home.jsx';
 import About from './components/pages/about/About.jsx';
 import Contact from './components/pages/contact/Contact.jsx';
 import Projects from './components/pages/projects/Projects.jsx';
+import ScrollToTop from './components/scrollToTop/ScrollToTop.jsx';
 import MoveItProject from './components/pages/projects/project-detail/mi-portfolio-pages copy/MoveItProject.jsx';
 import InspireProject from './components/pages/projects/project-detail/inProject/InspireProject.jsx';
 import InteriorsProject from './components/pages/projects/project-detail/interiorsProject-portfolio-pages/InteriorsProject.jsx';
@@ -15,6 +16,7 @@ import './App.css';
 function App() {
   return (
     <Router>
+      <ScrollToTop/>
       <div className='app'>
       <Navbar />
       <Sidebar />

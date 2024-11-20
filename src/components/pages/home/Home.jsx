@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Button from '../../button/Button.jsx';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { 
   faHtml5, faCss3Alt, faSquareJs, faNodeJs, faPython, faGithub, 
@@ -32,8 +31,8 @@ const Home = () => {
           <div className="col">
             <h3>Hi! My name is Jordan and I'm a web developer from Essex, UK.</h3>
             <div className="button-container">
-              <Button name='About me' path='/about' />
-              <Button name='Explore Portfolio' path='/projects' />
+              <Link name='About me' to='/about' className='link-to-projects explore-btn'>About me</Link>
+              <Link name='Explore Portfolio' to='/projects' className='link-to-projects explore-btn'>Explore Portfolio</Link>
             </div>
           </div>
         </div>
@@ -142,7 +141,7 @@ const Home = () => {
           </div>
         </div>
         {/* Button to Explore Portfolio */}
-      <div className='button-container'><Button className='link-to-projects explore-btn' name='Explore Portfolio' path='/projects' /></div>
+      <div className='button-container'><Link className='link-to-projects explore-btn' name='Explore Portfolio' to='/projects'>Explore Portfolio</Link></div>
       </div>
     </div>
   );
