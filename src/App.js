@@ -11,6 +11,7 @@ import MoveItProject from './components/pages/projects/project-detail/mi-portfol
 import InspireProject from './components/pages/projects/project-detail/inProject/InspireProject.jsx';
 import InteriorsProject from './components/pages/projects/project-detail/interiorsProject-portfolio-pages/InteriorsProject.jsx';
 import TrvlrProject from './components/pages/projects/project-detail/trvlr-portfolio-pages copy/TrvlrProject.jsx';
+import ReigniteProject from './components/pages/projects/project-detail/reigniteProject/ReigniteProject.jsx';
 import './App.css';
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
         <Route path="/inspire" element={<InspireProject />} />
         <Route path="/trvlr" element={<TrvlrProject />} />
         <Route path="/interiors" element={<InteriorsProject />} />
+        <Route path="/reignite" element={<ReigniteProject />} />
       </Routes>
       </div>
     </Router>
