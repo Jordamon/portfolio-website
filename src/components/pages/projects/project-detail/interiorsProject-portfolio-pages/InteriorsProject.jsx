@@ -1,9 +1,9 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import interiorsScreenshot1 from '../../screenshots/interiors-screenshot/Screenshot 2024-02-15 at 21.12.47.png';
-import interiorsScreenshot4 from '../../screenshots/interiors-screenshot/Screenshot 2024-02-15 at 21.13.07.png';
-import interiorsScreenshot3 from '../../screenshots/interiors-screenshot/Screenshot 2024-02-15 at 21.13.19.png';
-import interiorsScreenshot2 from '../../screenshots/interiors-screenshot/Screenshot 2024-02-15 at 21.13.43.png';
+import interiorsScreenshot1 from '../../screenshots/interiors-screenshot/Screenshot 2024-02-15 at 21.12.47.webp';
+import interiorsScreenshot4 from '../../screenshots/interiors-screenshot/Screenshot 2024-02-15 at 21.13.07.webp';
+import interiorsScreenshot3 from '../../screenshots/interiors-screenshot/Screenshot 2024-02-15 at 21.13.19.webp';
+import interiorsScreenshot2 from '../../screenshots/interiors-screenshot/Screenshot 2024-02-15 at 21.13.43.webp';
 import './InteriorsProject.css';
 
 const InteriorsProject = () => {

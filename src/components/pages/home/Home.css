@@ -11,6 +11,7 @@
     left: 3%;
     width: 100%;
     font-size: 64px;
+    color: white;
 }
 
 .intro-text h2 {
@@ -32,11 +33,11 @@
 
 .frosted-container {
     background-color: rgba(0,0,0,0);
-    backdrop-filter: blur(15px);
     transform: scale(1);
     border-radius: 25px;
-    -webkit-backdrop-filter: saturate(180% )blur(15px);
-    backdrop-filter: saturate(180% )blur(15px);
+    -webkit-backdrop-filter: saturate(100% )blur(5px);
+    backdrop-filter: saturate(100% )blur(5px);
+    border: solid 1px white;
 }
 
 .profile-container img{
@@ -144,12 +145,12 @@ h2 {
   font-weight: bold;
   text-align: center;
   text-decoration: none;
-  border: none;
+  border: solid 1px white;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
-  background-color: #e99c86; /* Default background color */
-  color: #fff; /* Default text color */
+  background-color: #ffc76d; /* Default background color */
+  color: rgb(43, 43, 43); /* Default text color */
 }
 .explorebtn:hover {
     background-color: #000000; /* Hover background color */

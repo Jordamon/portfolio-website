@@ -1,9 +1,9 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import reigniteScreenshot1 from '../../screenshots/reignite-screenshot/reigniteconstruction.netlify.app_.png';
-import reigniteScreenshot2 from '../../screenshots/reignite-screenshot/reigniteconstruction.netlify.app_aboutus.png';
-import reigniteScreenshot3 from '../../screenshots/reignite-screenshot/reigniteconstruction.netlify.app_blog.png';
-import reigniteScreenshot4 from '../../screenshots/reignite-screenshot/reigniteconstruction.netlify.app_contact.png';
+import reigniteScreenshot1 from '../../screenshots/reignite-screenshot/reigniteconstruction.netlify.app_.webp';
+import reigniteScreenshot2 from '../../screenshots/reignite-screenshot/reigniteconstruction.netlify.app_aboutus.webp';
+import reigniteScreenshot3 from '../../screenshots/reignite-screenshot/reigniteconstruction.netlify.app_blog.webp';
+import reigniteScreenshot4 from '../../screenshots/reignite-screenshot/reigniteconstruction.netlify.app_contact.webp';
 import './ReigniteProject.css';
 
 const ReigniteProject = () => {

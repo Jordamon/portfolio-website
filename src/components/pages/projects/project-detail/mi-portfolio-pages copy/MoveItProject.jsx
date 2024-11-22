@@ -1,9 +1,9 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import moveitScreenshot1 from '../../screenshots/moveit-screenshot/localhost_3001_.png';
-import moveitScreenshot4 from '../../screenshots/moveit-screenshot/localhost_3001_product_product6.png';
-import moveitScreenshot3 from '../../screenshots/moveit-screenshot/localhost_3001_product_product6 (1).png';
-import moveitScreenshot2 from '../../screenshots/moveit-screenshot/localhost_3001_products (4).png';
+import moveitScreenshot1 from '../../screenshots/moveit-screenshot/moveitv2.netlify.app_.webp';
+import moveitScreenshot4 from '../../screenshots/moveit-screenshot/moveitv2.netlify.app_account.webp';
+import moveitScreenshot3 from '../../screenshots/moveit-screenshot/localhost_3001_product_product6.webp';
+import moveitScreenshot2 from '../../screenshots/moveit-screenshot/localhost_3001_products (4).webp';
 import './MoveItProject.css';
 
 const MoveItProject = () => {

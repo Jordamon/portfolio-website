@@ -10,19 +10,18 @@
     overflow: hidden;
     z-index: -1;  
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-image: 
-      url('../../../images/Simple Cityscape In Animation Style (1).png');
+      url('../../../images/pawel-czerwinski-oykbZuvajO0-unsplash.jpg');
     background-position: top center, bottom center;
-    background-size: contain;
   }
   
   /* Flipping the second instance upside down */
-  .background-container-projects::after {
+  /* .background-container-projects::after {
     content: "";
     position: absolute;
     top: 2400px; /* Position the second image directly below the first */
-    left: 0;
+    /* left: 0;
     width: 100vw;
     height: 5000px;
     background-image: url('../../../images/Simple Cityscape In Animation Style (1).png');
@@ -31,9 +30,9 @@
     background-size: contain;
     transform: rotate(180deg) scaleX(-1);
     transform-origin: top; /* Rotate from the top edge to align properly */
-    z-index: -1;
-  }
-  .background-container-projects2 {
+    /* z-index: -1; */
+  /* }  */ */
+  /* .background-container-projects2 {
     position: absolute;
     top: 2200px;
     width: 100vw;
@@ -46,7 +45,7 @@
       url('../../../images/Simple Cityscape In Animation Style (1).png');
     background-position: top center, bottom center;
     background-size: contain;
-  }
+  } */
   
   /* Flipping the second instance upside down */
   .background-container-projects2::after {
@@ -106,11 +105,10 @@
     align-items: center;
     height: 40vh;
     background-color: rgba(0,0,0,0);
-    backdrop-filter: blur(15px);
     transform: scale(1);
     border-radius: 25px;
-    -webkit-backdrop-filter: saturate(180% )blur(15px);
-    backdrop-filter: saturate(180% )blur(15px);
+    -webkit-backdrop-filter: saturate(100% )blur(10px);
+    backdrop-filter: saturate(100% )blur(10px);
     border: solid white 1px;
     cursor: pointer;
 }

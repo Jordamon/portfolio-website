@@ -1,9 +1,9 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import trvlrScreenshot1 from '../../screenshots/trvlr-screenshot/Screenshot 2024-02-15 at 21.11.00.png';
-import trvlrScreenshot4 from '../../screenshots/trvlr-screenshot/Screenshot 2024-02-15 at 21.11.38.png';
-import trvlrScreenshot3 from '../../screenshots/trvlr-screenshot/Screenshot 2024-02-15 at 21.11.51.png';
-import trvlrScreenshot2 from '../../screenshots/trvlr-screenshot/Screenshot 2024-02-15 at 21.12.02.png';
+import trvlrScreenshot1 from '../../screenshots/trvlr-screenshot/Screenshot 2024-02-15 at 21.11.00.webp';
+import trvlrScreenshot4 from '../../screenshots/trvlr-screenshot/Screenshot 2024-02-15 at 21.11.38.webp';
+import trvlrScreenshot3 from '../../screenshots/trvlr-screenshot/Screenshot 2024-02-15 at 21.11.51.webp';
+import trvlrScreenshot2 from '../../screenshots/trvlr-screenshot/Screenshot 2024-02-15 at 21.12.02.webp';
 import './TrvlrProject.css';
 
 const TrvlrProject = () => {
