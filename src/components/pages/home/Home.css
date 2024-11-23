@@ -149,7 +149,23 @@ h2 {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
-  background-color: #ffc76d; /* Default background color */
+  background-color: white; /* Default background color */
+  color: rgb(43, 43, 43); /* Default text color */
+}
+.small-btn{
+    width: 80%;
+    display: inline-block;
+  padding: 20px 40px;
+  margin: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border: solid 1px white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  background-color: white; /* Default background color */
   color: rgb(43, 43, 43); /* Default text color */
 }
 .explorebtn:hover {
@@ -164,6 +180,7 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     width: 100%;
 }
 

@@ -31,8 +31,8 @@ const Home = () => {
           <div className="col">
             <h3>Hi! My name is Jordan and I'm a web developer from Essex, UK.</h3>
             <div className="button-container">
-              <Link name='About me' to='/about' className='link-to-projects explore-btn'>About me</Link>
-              <Link name='Explore Portfolio' to='/projects' className='link-to-projects explore-btn'>Explore Portfolio</Link>
+              <Link name='About me' to='/about' className='link-to-projects small-btn'>About me</Link>
+              <Link name='Explore Portfolio' to='/projects' className='link-to-projects small-btn'>Explore Portfolio</Link>
             </div>
           </div>
         </div>
