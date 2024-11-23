@@ -1,5 +1,4 @@
 import React from "react";
-
 import { motion } from 'framer-motion';
 
 const AboutSection = ({ title, text, imgSrc, altText, reverse }) => {
