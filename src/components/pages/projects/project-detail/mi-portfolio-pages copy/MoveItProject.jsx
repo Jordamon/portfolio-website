@@ -1,5 +1,5 @@
 import React from 'react';
-import ProjectCard from '../../projectCard'; // Ensure the correct path to ProjectCard
+import ProjectCard from '../../projectCard'; 
 import moveitScreenshot1 from '../../screenshots/moveit-screenshot/moveitv2.netlify.app_.webp';
 import moveitScreenshot4 from '../../screenshots/moveit-screenshot/moveitv2.netlify.app_account.webp';
 import moveitScreenshot3 from '../../screenshots/moveit-screenshot/localhost_3001_product_product6.webp';
@@ -40,7 +40,7 @@ const MoveItProject = () => {
 
   return (
     <div className="projects-highlight">
-      <div className="background-container-projects" />
+      <div className="background-container-projects-move-it" />
       <div className="portfolio-title-highlight">
         <h1>PROJECT PORTFOLIO</h1>
       </div>
@@ -58,7 +58,7 @@ const MoveItProject = () => {
 
           />
         ))}
-        <div className="button-container frosted-container moveItBtn">
+        <div className="button-container moveItBtn">
           <a
             href="https://moveitv2.netlify.app/"
             target="_blank"

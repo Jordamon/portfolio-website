@@ -11,7 +11,7 @@
 
 .moveit-projects-container-highlight{
     width: 75%;
-    height: 4000px;
+    height: 3750px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -19,6 +19,19 @@
     margin: 10% 10% 0 15%;
     padding-bottom: 5%;
 }
+
+.background-container-projects-move-it {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 5100px;
+    overflow: hidden;
+    z-index: -1;  
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-image: 
+      url('../../../../../images/pawel-czerwinski-oykbZuvajO0-unsplash.jpg');
+  }
 
 .individual-project-highlight img {
     position: relative;
@@ -52,14 +65,14 @@
     height: 5%;
 }
 .moveit-projects-container-highlight .m2 {
-    margin-top: 1900px;
+    margin-top: 1550px;
 }
 .moveit-projects-container-highlight .m3 {
-    margin-top: 1250px;
+    margin-top: 1100px;
 }
 .moveit-projects-container-highlight .m4 {
-    margin-top: 550px;
+    margin-top: 350px;
 }
 .moveItBtn {
-    margin-top: 40%;
+    margin-top: 30%;
 }

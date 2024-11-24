@@ -11,7 +11,7 @@ const ProjectCard = ({ title, imgSrc, to, text, alt, className, reverse }) => {
       transition={{ duration: 0.6 }}
       viewport={{ once: true }}
     >
-      <div className={`moveit individual-project ${reverse ? 'reverse' : ''} ${className}`}>
+      <div className={`moveit individual-project ${reverse ? 'reverse' : 'left'} ${className}`}>
         <div className="move-it-homepage-img">
           <Link to={to}>
             <img src={imgSrc} alt={alt || 'Project preview'} />

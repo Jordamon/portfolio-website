@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import ProjectCard from '../../projectCard';
 import reigniteScreenshot1 from '../../screenshots/reignite-screenshot/reigniteconstruction.netlify.app_.webp';
 import reigniteScreenshot2 from '../../screenshots/reignite-screenshot/reigniteconstruction.netlify.app_aboutus.webp';
 import reigniteScreenshot3 from '../../screenshots/reignite-screenshot/reigniteconstruction.netlify.app_blog.webp';
@@ -7,54 +7,79 @@ import reigniteScreenshot4 from '../../screenshots/reignite-screenshot/reignitec
 import './ReigniteProject.css';
 
 const ReigniteProject = () => {
+  const reigniteData = [
+    {
+      title: 'Move it Gym-wear E-commerce Website',
+      text: 'Project Summary',
+      imgSrc: reigniteScreenshot1,
+      alt: 'Screenshot 1',
+      to: '/MoveIt',
+      customClass: 'r1',
+    },
+    {
+      title: 'Move it Gym-wear E-commerce Website',
+      text: 'Project Summary',
+      imgSrc: reigniteScreenshot2,
+      alt: 'Screenshot 2',
+      to: '/MoveIt',
+      customClass: 'r2',
+    },
+    {
+      title: 'Move it Gym-wear E-commerce Website',
+      text: 'Project Summary',
+      imgSrc: reigniteScreenshot4,
+      alt: 'Screenshot 3',
+      to: '/MoveIt',
+      customClass: 'r3',
+    },
+    {
+      title: 'Move it Gym-wear E-commerce Website',
+      text: 'Project Summary',
+      imgSrc: reigniteScreenshot3,
+      alt: 'Screenshot 4',
+      to: '/MoveIt',
+      customClass: 'r4',
+    },
+  ];
+
   return (
     <div className="projects-highlight">
-      <div className="background-container-projects">
-      </div>
-      <div className="background-container-projects2">
-      </div>
-      <div className="background-container-projects3">
-      </div>
-      <hr class="red-line"></hr>
+      {/* Background Sections */}
+      <div className="background-container-projects-move-it"></div>
+      {/* Title Section */}
       <div className="portfolio-title-highlight">
-          <h1>PROJECT PORTFOLIO</h1>
+        <h1>PROJECT PORTFOLIO</h1>
       </div>
-      <div className='moveit-projects-container-highlight'>
-        <div className='individual-project-highlight m1'>
-          <div className="move-it-homepage-img-highlight"><Link to="/MoveIt"><img src={reigniteScreenshot1} alt="Screenshot 1" /></Link></div>
-          <div className="project-text-highlight">
-            <h2>Move it Gym-wear E-commerce Website</h2>
-            <p>Project Summary</p>
-          </div>
-        </div>
-        <div className='individual-project-highlight m2'>
-        <div className="project-text-highlight">
-            <h2>Move it Gym-wear E-commerce Website</h2>
-            <p>Project Summary</p>
-          </div>
-          <div className="move-it-homepage-img right-project"><Link to="/MoveIt"><img src={reigniteScreenshot2} alt="Screenshot 1" /></Link></div>
-          </div>
-        <div className='individual-project-highlight m3'>
-          <div className="move-it-homepage-img"><Link to="/MoveIt"><img src={reigniteScreenshot4} alt="Screenshot 1" /></Link></div>
-          <div className="project-text-highlight">
-            <h2>Move it Gym-wear E-commerce Website</h2>
-            <p>Project Summary</p>
-          </div>
-          </div>
-        <div className='individual-project-highlight m4'>
-          <div className="project-text-highlight">
-            <h2>Move it Gym-wear E-commerce Website</h2>
-            <p>Project Summary</p>
-          </div>
-          <div className="move-it-homepage-img right-project"><Link to="/MoveIt"><img src={reigniteScreenshot3} alt="Screenshot 1" /></Link></div>
-        </div>
-        <div className="button-container frosted-container moveItBtn">
-          <a href="https://moveitv2.netlify.app/" target='blank' rel="noopener noreferrer" className='explore-btn'>Try out this site!</a>
-        </div>
-    
-    </div>
-    </div>
-  )
-}
 
-export default ReigniteProject
+      {/* Projects Section */}
+      <div className="moveit-projects-container-highlight">
+        {reigniteData.map((project, index) => (
+          <ProjectCard
+            key={index}
+            title={project.title}
+            text={project.text}
+            imgSrc={project.imgSrc}
+            alt={project.alt}
+            to={project.to}
+            className={`individual-project ${project.customClass}`}
+            reverse={index % 2 !== 0} // Alternate reverse for odd/even items
+          />
+        ))}
+        </div>
+
+        {/* Button Section */}
+        <div className="button-container rBtn">
+          <a
+            href="https://moveitv2.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="explore-btn"
+          >
+            Try out this site!
+          </a>
+        </div>
+      </div>
+  );
+};
+
+export default ReigniteProject;

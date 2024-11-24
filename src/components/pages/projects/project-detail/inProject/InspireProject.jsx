@@ -1,10 +1,27 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import ProjectCard from '../../projectCard';
 import inspireScreenshot1 from '../../screenshots/inspire-screenshot/Screenshot 2024-02-15 at 21.09.07.webp';
 import inspireScreenshot2 from '../../screenshots/inspire-screenshot/Screenshot 2024-02-15 at 21.09.21.webp';
 import './InspireProject.css';
 
 const InspireProject = () => {
+  const inspireData = [
+    {
+      title: 'Move it Gym-wear E-commerce Website',
+      text: 'This project demonstrates a modern e-commerce website designed for a fictional gym-wear brand, featuring a responsive layout and interactive features.',
+      imgSrc: inspireScreenshot1,
+      alt: 'Screenshot of MoveIt Gym-wear Homepage',
+      to: '/MoveIt', // Adjust the route as needed
+    },
+    {
+      title: 'Move it Gym-wear E-commerce Website',
+      text: 'Explore a professional and user-friendly design tailored for seamless shopping experiences, showcasing product galleries, cart functionalities, and more.',
+      imgSrc: inspireScreenshot2,
+      alt: 'Alternate view of MoveIt Gym-wear Homepage',
+      to: '/MoveIt', // Adjust the route as needed
+    },
+  ];
+
   return (
     <div className="projects-highlight">
       {/* Background Section */}
@@ -16,46 +33,30 @@ const InspireProject = () => {
       </div>
 
       {/* Projects Section */}
-      <div className="projects-container-highlight">
-        {/* Project 1 */}
-        <div className="individual-project-highlight i1">
-          <div className="move-it-homepage-img-highlight">
-            <Link to="/MoveIt">
-              <img
-                src={inspireScreenshot1}
-                alt="Screenshot of MoveIt Gym-wear Homepage"
-              />
-            </Link>
-          </div>
-          <div className="project-text-highlight">
-            <h2>Move it Gym-wear E-commerce Website</h2>
-            <p>
-              This project demonstrates a modern e-commerce website designed for a fictional gym-wear brand, featuring a responsive layout and interactive features.
-            </p>
-          </div>
-        </div>
-
-        {/* Project 2 */}
-        <div className="individual-project-highlight i2">
-          <div className="project-text-highlight">
-            <h2>Move it Gym-wear E-commerce Website</h2>
-            <p>
-              Explore a professional and user-friendly design tailored for seamless shopping experiences, showcasing product galleries, cart functionalities, and more.
-            </p>
-          </div>
-          <div className="move-it-homepage-img right-project">
-            <Link to="/MoveIt">
-              <img
-                src={inspireScreenshot2}
-                alt="Alternate view of MoveIt Gym-wear Homepage"
-              />
-            </Link>
-          </div>
-        </div>
+      <div className="projects-container">
+        {inspireData.map((project, index) => (
+          <ProjectCard
+            key={index}
+            title={project.title}
+            text={project.text}
+            imgSrc={project.imgSrc}
+            alt={project.alt}
+            to={project.to}
+            className={`individual-project i${index + 1}`}
+            reverse={index % 2 !== 0} // Alternate reverse for odd/even items
+          />
+        ))}
 
         {/* Button Section */}
-        <div className="button-container frosted-container inspireBtn">
-          <a href="https://inspire-no-one.netlify.app/" target='blank' rel="noopener noreferrer" className='explore-btn'>Try out this site!</a>
+        <div className="button-container inspireBtn">
+          <a
+            href="https://inspire-no-one.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="explore-btn"
+          >
+            Try out this site!
+          </a>
         </div>
       </div>
     </div>
