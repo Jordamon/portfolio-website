@@ -43,7 +43,7 @@
     border: solid white 1px;
     cursor: pointer;
 }
-.individual-about.reverse {
+.reverse {
     flex-direction: row-reverse;
   }
 .about-text {

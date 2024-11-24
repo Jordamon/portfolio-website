@@ -9,7 +9,7 @@
     height: 2350px;
     overflow: hidden;
     z-index: -1;  
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: cover;
     background-image: 
       url('../../../images/pawel-czerwinski-oykbZuvajO0-unsplash.jpg');
@@ -81,10 +81,16 @@
     border-radius: 25px;
     margin: 2%;
     position: relative;
-    right: 10%;
 }
 
 .right-project {
     position: relative;
     left: 10%;
+}
+.left img {
+    position: relative;
+    right: 10%;
+}
+.reverse {
+    flex-direction: row-reverse;
 }

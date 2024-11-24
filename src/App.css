@@ -22,9 +22,8 @@ a {
   height: 1242px;
   overflow: hidden;
   z-index: -1;  
-  background-repeat: no-repeat;
   background-size: cover;
   background-image: 
     url('./images/pawel-czerwinski-oykbZuvajO0-unsplash.jpg');
-  background-position: top center, bottom center;
+  background-repeat: repeat-y;
 }

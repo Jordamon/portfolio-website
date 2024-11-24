@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import ProjectCard from '../../projectCard'; // Ensure the correct path to ProjectCard
 import moveitScreenshot1 from '../../screenshots/moveit-screenshot/moveitv2.netlify.app_.webp';
 import moveitScreenshot4 from '../../screenshots/moveit-screenshot/moveitv2.netlify.app_account.webp';
 import moveitScreenshot3 from '../../screenshots/moveit-screenshot/localhost_3001_product_product6.webp';
@@ -7,54 +7,70 @@ import moveitScreenshot2 from '../../screenshots/moveit-screenshot/localhost_300
 import './MoveItProject.css';
 
 const MoveItProject = () => {
+  const moveItData = [
+    {
+      title: 'Homepage',
+      text: 'This is the homepage',
+      imgSrc: moveitScreenshot1,
+      alt: 'Homepage screenshot',
+      to: '/MoveIt', // Adjust the route as needed
+    },
+    {
+      title: 'Products Page',
+      text: 'This is the products page',
+      imgSrc: moveitScreenshot2,
+      alt: 'Products page screenshot',
+      to: '/MoveIt', // Adjust the route as needed
+    },
+    {
+      title: 'Single Product Page',
+      text: 'This is the single product page',
+      imgSrc: moveitScreenshot3,
+      alt: 'Single product page screenshot',
+      to: '/MoveIt', // Adjust the route as needed
+    },
+    {
+      title: 'Account Page',
+      text: 'This is the account page',
+      imgSrc: moveitScreenshot4,
+      alt: 'Account page screenshot',
+      to: '/MoveIt', // Adjust the route as needed
+    },
+  ];
+
   return (
     <div className="projects-highlight">
-      <div className="background-container-projects">
-      </div>
-      <div className="background-container-projects2">
-      </div>
-      <div className="background-container-projects3">
-      </div>
-      <hr class="red-line"></hr>
+      <div className="background-container-projects" />
       <div className="portfolio-title-highlight">
-          <h1>PROJECT PORTFOLIO</h1>
+        <h1>PROJECT PORTFOLIO</h1>
       </div>
-      <div className='moveit-projects-container-highlight'>
-        <div className='individual-project-highlight m1'>
-          <div className="move-it-homepage-img-highlight"><Link to="/MoveIt"><img src={moveitScreenshot1} alt="Screenshot 1" /></Link></div>
-          <div className="project-text-highlight">
-            <h2>Move it Gym-wear E-commerce Website</h2>
-            <p>Project Summary</p>
-          </div>
-        </div>
-        <div className='individual-project-highlight m2'>
-        <div className="project-text-highlight">
-            <h2>Move it Gym-wear E-commerce Website</h2>
-            <p>Project Summary</p>
-          </div>
-          <div className="move-it-homepage-img right-project"><Link to="/MoveIt"><img src={moveitScreenshot2} alt="Screenshot 1" /></Link></div>
-          </div>
-        <div className='individual-project-highlight m3'>
-          <div className="move-it-homepage-img"><Link to="/MoveIt"><img src={moveitScreenshot3} alt="Screenshot 1" /></Link></div>
-          <div className="project-text-highlight">
-            <h2>Move it Gym-wear E-commerce Website</h2>
-            <p>Project Summary</p>
-          </div>
-          </div>
-        <div className='individual-project-highlight m4'>
-          <div className="project-text-highlight">
-            <h2>Move it Gym-wear E-commerce Website</h2>
-            <p>Project Summary</p>
-          </div>
-          <div className="move-it-homepage-img right-project"><Link to="/MoveIt"><img src={moveitScreenshot4} alt="Screenshot 1" /></Link></div>
-        </div>
-        <div className="button-container frosted-container moveItBtn">
-          <a href="https://moveitv2.netlify.app/" target='blank' rel="noopener noreferrer" className='explore-btn'>Try out this site!</a>
-        </div>
-    
-    </div>
-    </div>
-  )
-}
+      <div className="moveit-projects-container-highlight">
+        {moveItData.map((project, index) => (
+          <ProjectCard
+            key={index}
+            title={project.title}
+            text={project.text}
+            imgSrc={project.imgSrc}
+            alt={project.alt}
+            to={project.to}
+            className={`individual-project-highlight m${index + 1}`}
+            reverse={index % 2 !== 0} // Alternate reverse for odd/even items
 
-export default MoveItProject
+          />
+        ))}
+        <div className="button-container frosted-container moveItBtn">
+          <a
+            href="https://moveitv2.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="explore-btn"
+          >
+            Try out this site!
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default MoveItProject;
