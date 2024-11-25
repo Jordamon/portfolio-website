@@ -168,8 +168,8 @@ h2 {
   background-color: white; /* Default background color */
   color: rgb(43, 43, 43); /* Default text color */
 }
-.explorebtn:hover {
-    background-color: #000000; /* Hover background color */
+.btn:hover {
+    background-color: rgb(43, 43, 43); /* Hover background color */
     color: #fff; 
 }
 .explore-btn:active {

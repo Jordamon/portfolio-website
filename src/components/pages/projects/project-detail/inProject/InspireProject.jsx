@@ -33,7 +33,7 @@ const InspireProject = () => {
       </div>
 
       {/* Projects Section */}
-      <div className="projects-container">
+      <div className="projects-container individual-item">
         {inspireData.map((project, index) => (
           <ProjectCard
             key={index}
@@ -53,7 +53,7 @@ const InspireProject = () => {
             href="https://inspire-no-one.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
-            className="explore-btn"
+            className="explore-btn btn"
           >
             Try out this site!
           </a>

@@ -23,7 +23,7 @@ const Home = () => {
       {/* Profile and Skills Section */}
       <div className="languages">
         {/* Profile Container */}
-        <div className="profile-container frosted-container">
+        <div className="profile-container frosted-container individual-item">
           <Link to='/about'>
             <img src={profilePicture} alt="Profile of Jordan Hunt" />
           </Link>
@@ -31,15 +31,15 @@ const Home = () => {
           <div className="col">
             <h3>Hi! My name is Jordan and I'm a web developer from Essex, UK.</h3>
             <div className="button-container">
-              <Link name='About me' to='/about' className='link-to-projects small-btn'>About me</Link>
-              <Link name='Explore Portfolio' to='/projects' className='link-to-projects small-btn'>Explore Portfolio</Link>
+              <Link name='About me' to='/about' className='link-to-projects small-btn btn'>About me</Link>
+              <Link name='Explore Portfolio' to='/projects' className='link-to-projects small-btn btn'>Explore Portfolio</Link>
             </div>
           </div>
         </div>
 
         {/* Core Languages Section */}
         <div className="skills">
-          <div className="main frosted-container">
+          <div className="main frosted-container individual-item">
             <h2 className='title'>Here are my core languages:</h2>
             <div className="core-languages">
               <div className="html language-details">
@@ -64,7 +64,7 @@ const Home = () => {
           </div>
 
           {/* Other Languages Section */}
-          <div className="other frosted-container">
+          <div className="other frosted-container individual-item">
             <h2 className='title'>And here are some others that I have experience in:</h2>
             <div className="other-languages">
               <div className="node JS language-details">
@@ -91,7 +91,7 @@ const Home = () => {
 
         {/* Additional Technologies Section */}
         <div className="skills">
-          <div className="main frosted-container">
+          <div className="main frosted-container individual-item">
             <h2 className='title'>Other technologies that I can use include:</h2>
             <div className="other-languages">
               <div className="github language-details">
@@ -116,7 +116,7 @@ const Home = () => {
           </div>
 
           {/* Learning Technologies Section */}
-          <div className="other frosted-container">
+          <div className="other frosted-container individual-item">
             <h2 className='title'>I am now looking to study:</h2>
             <div className="other-languages">
               <div className="angular language-details">
@@ -141,7 +141,7 @@ const Home = () => {
           </div>
         </div>
         {/* Button to Explore Portfolio */}
-      <div className='button-container'><Link className='link-to-projects explore-btn' name='Explore Portfolio' to='/projects'>Explore Portfolio</Link></div>
+      <div className='button-container'><Link className='link-to-projects explore-btn btn' name='Explore Portfolio' to='/projects'>Explore Portfolio</Link></div>
       </div>
     </div>
   );

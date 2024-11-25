@@ -62,7 +62,7 @@ const InteriorsProject = () => {
             imgSrc={project.imgSrc}
             alt={project.alt}
             to={project.to}
-            className={`individual-project-highlight ${project.customClass}`}
+            className={`individual-project-highlight individual-item ${project.customClass}`}
             reverse={index % 2 !== 0} // Alternate reverse for odd/even items
           />
         ))}
@@ -73,7 +73,7 @@ const InteriorsProject = () => {
             href="https://jordamoninteriors.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
-            className="explore-btn"
+            className="explore-btn btn"
           >
             Try out this site!
           </a>

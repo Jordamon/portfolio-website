@@ -61,7 +61,7 @@ const ReigniteProject = () => {
             imgSrc={project.imgSrc}
             alt={project.alt}
             to={project.to}
-            className={`individual-project ${project.customClass}`}
+            className={`individual-project individual-item ${project.customClass}`}
             reverse={index % 2 !== 0} // Alternate reverse for odd/even items
           />
         ))}
@@ -73,7 +73,7 @@ const ReigniteProject = () => {
             href="https://moveitv2.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
-            className="explore-btn"
+            className="explore-btn btn"
           >
             Try out this site!
           </a>

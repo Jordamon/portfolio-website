@@ -53,7 +53,7 @@ const MoveItProject = () => {
             imgSrc={project.imgSrc}
             alt={project.alt}
             to={project.to}
-            className={`individual-project-highlight m${index + 1}`}
+            className={`individual-project-highlight individual-item m${index + 1}`}
             reverse={index % 2 !== 0} // Alternate reverse for odd/even items
 
           />
@@ -63,7 +63,7 @@ const MoveItProject = () => {
             href="https://moveitv2.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
-            className="explore-btn"
+            className="explore-btn btn"
           >
             Try out this site!
           </a>

@@ -99,7 +99,7 @@ const Contact = () => {
     onChange={handleChange}
     disabled={isSubmitting}
   ></textarea>
-  <button className="explore-btn" type="submit" disabled={isSubmitting}>
+  <button className="explore-btn btn" type="submit" disabled={isSubmitting}>
     {isSubmitting ? 'Sending...' : 'Send'}
   </button>
 </form>

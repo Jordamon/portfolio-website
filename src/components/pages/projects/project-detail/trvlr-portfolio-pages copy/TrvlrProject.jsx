@@ -62,7 +62,7 @@ const TrvlrProject = () => {
             imgSrc={project.imgSrc}
             alt={project.alt}
             to={project.to}
-            className={`moveit individual-project ${project.customClass}`}
+            className={`moveit individual-project individual-item ${project.customClass}`}
             reverse={index % 2 !== 0} // Alternate reverse for odd/even items
           />
         ))}
@@ -74,7 +74,7 @@ const TrvlrProject = () => {
           href="https://jordamontrvlr.netlify.app/"
           target="_blank"
           rel="noopener noreferrer"
-          className="explore-btn"
+          className="explore-btn btn"
         >
           Try out this site!
         </a>
