@@ -65,6 +65,16 @@ h3{
     justify-content: center;
     align-items: center;
 }
+.language-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lang-card{
+    width: 90%;
+    margin: 0 3%;
+}
 .core-languages{
     width: 100%;
     height: auto;
@@ -99,6 +109,12 @@ h2 {
     align-items: center;
     padding-bottom: 30px;
 }
+.language-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
 .main{
     width: 50%;
     height: 30vh;
@@ -122,7 +138,7 @@ h2 {
 .skills{
     width: 80%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin: 2%;
 }
