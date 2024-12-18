@@ -200,8 +200,28 @@ h2 {
     width: 100%;
 }
 
+@media screen and (max-width:950px) {
+    .intro-text{
+        display: flex;
+    }
+    .intro-text h1{
+        text-align: right;
+    }
+    .intro-text h2{
+        margin: 10px 0 0 30px;
+        font-size: 33px;
+        line-height: 45px;
+    }
+}
 @media screen and (max-width:700px) {
-    .intro-section{
+    .intro-text h1{
+        font-size: 55px;
+    }
+    .intro-text h2{
+        margin: 10px 0 0 30px;
+        font-size: 33px;
+    }
+    .profile-container{
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -209,8 +229,7 @@ h2 {
         text-align: center;   
         margin-top: 100px; 
     }
-    .scroll-down-for-info{
-        position: absolute;
-        right: 20%;
+    .skills{
+        flex-direction: column;
     }
 }

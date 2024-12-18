@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faWhatsapp, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import './Sidebar.css';
@@ -16,13 +15,6 @@ const sidebar = () => {
         </div>
         <div className="icon icon-wiggle">
           <FontAwesomeIcon icon={faInstagram} />
-        </div>
-      </div>
-      <div className="logo-container">
-        <div className="logo icon-wiggle">
-          <Link to='/'>
-          <h1>JH</h1>
-          </Link>
         </div>
       </div>
     </div>

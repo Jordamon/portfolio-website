@@ -1,5 +1,5 @@
 .navbar{
-    width: 100vw;
+    width: 100%;
     height: 15vh;
     display: flex;
     flex-direction: row;
@@ -31,8 +31,15 @@
     color: white;
     cursor: pointer;
   }
-/* Media query for screens smaller than 600px */
-@media screen and (max-width: 600px) {
+
+/* Media query for screens smaller than 900px */
+@media screen and (max-width: 900px) {
+  .listItem{
+    margin-right: 15px;
+}
+}
+/* Media query for screens smaller than 800px */
+@media screen and (max-width: 800px) {
     .navbar {
       justify-content: flex-start; /* Adjust alignment for the menu icon */
     }
@@ -44,8 +51,8 @@
       background-color: rgba(51, 51, 51, 0.849);
       position: absolute;
       top: 60px; /* Adjust this value based on your design */
-      right: -10;
-      width: 100%;
+      right: 0;
+      width: 20%;
       text-align: right;
     }
   
