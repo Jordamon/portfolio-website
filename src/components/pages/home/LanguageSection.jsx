@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion'
+import './Home.css';
 
 const LanguageSection = ({ title, languages }) => (
     <motion.div

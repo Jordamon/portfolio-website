@@ -65,11 +65,15 @@ h3{
     justify-content: center;
     align-items: center;
 }
-.language-card{
+.language-section .language-card{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.language-section{
+   padding: 5%;
+   text-align: center;
 }
 .lang-card{
     width: 90%;
@@ -96,7 +100,7 @@ h3{
     margin: 0 30px;
 }
 .title{
-    margin: 5%;
+    margin: 2%;
     padding-top: 0;
 }
 h2 {
@@ -225,9 +229,12 @@ h2 {
     .small-btn{
         width: 150px;
         height: 80px;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: center;
     }
     .button-container {
-        width: 90%;
+        width: 100%;
     }
 }
 @media screen and (max-width:700px) {
@@ -235,8 +242,9 @@ h2 {
         font-size: 55px;
     }
     .intro-text h2{
-        margin: 10px 0 0 30px;
+        margin: 5px 0 0 30px;
         font-size: 33px;
+        line-height: 40px;
     }
     .profile-container{
         flex-direction: column;
@@ -245,14 +253,24 @@ h2 {
         font-size: 12px;
         text-align: center;   
         margin-top: 0px; 
-        height: 400px;
+        height: 325px;
     }
     .profile-container img{
-        height: 200px;
-        width: 150px;
+        height: 180px;
+        width: 130px;
+        margin-left: 0;
     }
     .skills{
         flex-direction: column;
+        margin: 0;
+    }
+    .lang-card{
+        margin: 10px 0 0 0;
+    }
+    .small-btn{
+        width: 150px;
+        height: 60px;
+        font-size: 15px;
     }
 }
 @media screen and (max-width:450px) {
