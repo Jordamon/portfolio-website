@@ -1,5 +1,5 @@
 .navbar{
-    width: 100%;
+    width: 100vw;
     height: 15vh;
     display: flex;
     flex-direction: row;
@@ -74,7 +74,7 @@
     .navbar-toggle{
         display: block;
         position: fixed;
-        right: 0%;
+        right: 5%;
         top: 0%;
         font-size: 50px;
     }

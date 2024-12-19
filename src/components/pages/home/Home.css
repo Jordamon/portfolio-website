@@ -212,6 +212,23 @@ h2 {
         font-size: 33px;
         line-height: 45px;
     }
+    .profile-container{
+        width: 80%;
+    }
+    .profile-container img{
+        height: 200px;
+        width: 150px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    .small-btn{
+        width: 150px;
+        height: 80px;
+    }
+    .button-container {
+        width: 90%;
+    }
 }
 @media screen and (max-width:700px) {
     .intro-text h1{
@@ -227,9 +244,27 @@ h2 {
         align-items: center;
         font-size: 12px;
         text-align: center;   
-        margin-top: 100px; 
+        margin-top: 0px; 
+        height: 400px;
+    }
+    .profile-container img{
+        height: 200px;
+        width: 150px;
     }
     .skills{
         flex-direction: column;
+    }
+}
+@media screen and (max-width:450px) {
+    .intro-text h1{
+        font-size: 30px;
+    }
+    .intro-text h2{
+        margin: 5px 0 0 10px;
+        font-size: 20px;
+        line-height: 20px;
+    }
+    h3{
+        font-size: 15px;
     }
 }
