@@ -16,17 +16,20 @@ a {
 }
 
 .background-container {
-  position: absolute;
+  position: fixed;
   top: 0;
+  left: 0;
   width: 100%;
-  height: 1242px;
+  height: 100%;
   overflow: hidden;
-  z-index: -1;  
+  z-index: -1;
+  background-color: #000; /* Fallback color */
+  background-image: url('./images/pawel-czerwinski-oykbZuvajO0-unsplash.jpg');
   background-size: cover;
-  background-image: 
-    url('./images/pawel-czerwinski-oykbZuvajO0-unsplash.jpg');
-  background-repeat: repeat-y;
+  background-repeat: no-repeat;
+  background-position: center; /* Ensures the image is centered */
 }
+
 
 .individual-item:hover {
   transform: scale(1.025);

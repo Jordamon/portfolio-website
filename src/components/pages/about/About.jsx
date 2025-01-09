@@ -44,7 +44,7 @@ const About = () => {
     
   ];
   return (
-    <div className="background-container-projects">
+    <div className="about-container-projects">
       <div className="about-title">
         <h1>ABOUT</h1>
       </div>

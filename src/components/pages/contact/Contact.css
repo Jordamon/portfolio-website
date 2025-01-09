@@ -1,9 +1,15 @@
+.contact-page {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
 .contact-container {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 5%, auto, 0, auto;
+    margin: auto, auto, auto, auto;
 }
 form {
     display: flex;
@@ -40,10 +46,14 @@ input:focus, textarea:focus {
 textarea {
     resize: none;
 }
-.contact-text {
-    margin-left: 1%;
+.contact-title h1{
+    position: relative;
+    padding-top: 2%;
+    left: 3%;
+    width: 100%;
+    font-size: 64px;
+    color: white;
 }
-
 @media (max-width: 600px) {
     form {
         width: 90%;

@@ -20,6 +20,9 @@
     position: relative;
     padding-top: 3%;
     padding-left: 3%;
+    left: 3%;
+    width: 100%;
+    color: white;
 }
 
 .projects-container{
@@ -93,4 +96,20 @@
 }
 .reverse {
     flex-direction: row-reverse;
+}
+
+@media screen and (min-width: 1500px){
+    .background-container-projects {
+        height: 3350px;
+    }
+}
+@media screen and (max-width: 1250px){
+    .portfolio-title h1{
+        font-size: 48px;
+    } 
+}
+@media screen and (max-width: 1050px){
+    .portfolio-title h1{
+        font-size: 36px;
+    } 
 }

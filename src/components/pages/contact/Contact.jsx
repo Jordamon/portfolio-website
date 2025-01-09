@@ -47,16 +47,16 @@ const Contact = () => {
   };
 
   return (
-      <div className="contact-page background-container">
-      <div className="intro-text contact-text">
+      <div className="background-container">
+      <div className="contact-title">
         <h1>CONTACT</h1>
         </div>
-      
       <motion.div
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
       viewport={{ once: true }}>
+        <div className="contact-page">
         <div className="contact-container">
       <form onSubmit={handleSubmit} className="frosted-container">
   <h3>GET IN TOUCH</h3>
@@ -103,6 +103,7 @@ const Contact = () => {
     {isSubmitting ? 'Sending...' : 'Send'}
   </button>
 </form>
+        </div>
         </div>
      </motion.div>
       </div>

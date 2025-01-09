@@ -4,6 +4,20 @@
     height: 100vh;
     margin-top: 0;
 }
+
+.about-container-projects {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 2650px;
+    overflow: hidden;
+    z-index: -1;  
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-image: 
+      url('../../../images/pawel-czerwinski-oykbZuvajO0-unsplash.jpg');
+  }
+
 .my-info{
     width: 70%;
     height: auto;
@@ -19,11 +33,12 @@
     padding: 3%;
 }
 .about-title h1{
-    font-size: 64px;
     position: relative;
-    padding-top: 3%;
-    padding-left: 3%;
-    color: #333;
+    padding-top: 2%;
+    left: 3%;
+    width: 100%;
+    font-size: 64px;
+    color: white;
 }
 .about-img img{
     width: 120%;
