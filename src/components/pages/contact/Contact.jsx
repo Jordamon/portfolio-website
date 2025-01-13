@@ -104,6 +104,11 @@ const Contact = () => {
   </button>
 </form>
         </div>
+        <div className="ways-to-contact frosted-container">
+        <h2>Fill out the form or use one of the form of contact below: </h2>
+        <h3> Phone: 012345678</h3>
+        <h3> Email: 123456789@12345.com</h3>
+        </div>
         </div>
      </motion.div>
       </div>

@@ -1,15 +1,17 @@
 .contact-page {
     margin-top: 0%;
     display: flex;
+    flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 
 .contact-container {
-    width: 100%;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto auto 200px auto;
+    margin: 2.5% auto auto auto;
 }
 form {
     display: flex;
@@ -53,6 +55,32 @@ textarea {
     width: 100%;
     font-size: 64px;
     color: white;
+}
+.ways-to-contact {
+    height: 80%;
+    width: 35%;
+    margin: 0 10% 0 0;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ways-to-contact h2{
+    font-size: 32px;
+    text-align: left;
+}
+.ways-to-contact h3{
+    font-size: 26px;
+    text-align: left;
+}
+@media screen and (max-width: 1250px){
+    .contact-title h1{
+        font-size: 48px;
+    } 
+    .contact-page {
+        flex-direction: column;
+    }
 }
 @media (max-width: 600px) {
     form {

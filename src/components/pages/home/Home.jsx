@@ -23,9 +23,11 @@ const Home = () => (
       viewport={{ once: true }}
       className="profile-container frosted-container individual-item"
     >
+      <div className="col-1">
         <Link to='/about'>
           <img src={profilePicture} alt="Profile of Jordan Hunt" />
         </Link>
+      </div>
         <div className="col">
           <h3 className='h3-intro'>Hi! My name is Jordan and I'm a web developer from Essex, UK.</h3>
           <div className="button-container">
@@ -38,7 +40,7 @@ const Home = () => (
       {/* Render Language Sections */}
       <div className="skills">
       <div className='lang-card'><LanguageSection title="Here are my core languages:" languages={coreLanguages} /></div>
-      <div className='lang-card'><LanguageSection title="Others that I have experience in:" languages={otherLanguages} /></div>
+      <div className='lang-card'><LanguageSection title="I have some experience in:" languages={otherLanguages} /></div>
       </div>
       <div className="skills">
       <div className='lang-card'><LanguageSection title="Tech that I can use:" languages={technologies} /></div>

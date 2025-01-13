@@ -75,3 +75,9 @@
 .about-container .projects-container {
     margin-top: 3%;
 }
+
+@media screen and (max-width: 1250px){
+    .about-title h1{
+        font-size: 48px;
+    } 
+}
