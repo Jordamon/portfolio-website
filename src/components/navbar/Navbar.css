@@ -47,6 +47,8 @@
 @media screen and (max-width: 800px) {
     .navbar {
       justify-content: flex-start; /* Adjust alignment for the menu icon */
+      -webkit-backdrop-filter: saturate(100% )blur(0px);
+      backdrop-filter: saturate(100% )blur(0px);
     }
   
     /* Hide the menu by default on smaller screens */
