@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faWhatsapp, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import './Sidebar.css';
