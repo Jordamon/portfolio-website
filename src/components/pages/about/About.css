@@ -40,9 +40,9 @@
     font-size: 64px;
     color: white;
 }
-.about-img img{
-    width: 300px;
-    height: 400px;
+.about-container .about-img img{
+    width: 350px;
+    height: 380px;
     border-radius: 25px;
     margin: 2%;
     position: relative;
