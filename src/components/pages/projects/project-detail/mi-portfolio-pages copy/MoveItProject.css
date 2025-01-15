@@ -24,7 +24,7 @@
     position: absolute;
     top: 0;
     width: 100vw;
-    height: 5100px;
+    height: 5600px;
     overflow: hidden;
     z-index: -1;  
     background-repeat: repeat-y;
@@ -65,14 +65,30 @@
     height: 5%;
 }
 .moveit-projects-container-highlight .m2 {
-    margin-top: 1550px;
+    margin-top: 1750px;
 }
 .moveit-projects-container-highlight .m3 {
-    margin-top: 1100px;
+    margin-top: 1200px;
 }
 .moveit-projects-container-highlight .m4 {
     margin-top: 350px;
 }
 .moveItBtn {
     margin-top: 30%;
+}
+
+
+@media screen and (min-width: 1500px) {
+    .background-container-projects-move-it {
+        height: 7000px;
+      }
+    .moveit-projects-container-highlight .m2 {
+        margin-top: 1950px;
+    }
+    .moveit-projects-container-highlight .m3 {
+        margin-top: 1400px;
+    }
+    .moveit-projects-container-highlight .m4 {
+        margin-top: 350px;
+    }
 }

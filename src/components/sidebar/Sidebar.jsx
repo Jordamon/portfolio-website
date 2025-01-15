@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faWhatsapp, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import './Sidebar.css';
@@ -8,14 +9,20 @@ const sidebar = () => {
     <div className='sidebar'>
       <div className="icons-container">
         <div className="icon icon-wiggle">
-          <FontAwesomeIcon icon={faGithub} />
-        </div>
+        <a href="https://github.com/Jordamon" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faGithub} />
+          </a>        
+          </div>
         <div className="icon icon-wiggle">
-          <FontAwesomeIcon icon={faWhatsapp} />
-        </div>
+        <a href="https://wa.me/07846579793" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faWhatsapp} />
+          </a>
+          </div>        
         <div className="icon icon-wiggle">
-          <FontAwesomeIcon icon={faInstagram} />
-        </div>
+        <a href="https://www.instagram.com/jordamon_/" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faInstagram} />
+          </a>
+          </div>       
       </div>
     </div>
   )

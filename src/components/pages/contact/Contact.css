@@ -13,6 +13,18 @@
     align-items: center;
     margin: 2.5% auto auto auto;
 }
+.contact-page-container {
+    width: 100%;
+    height: auto;
+    padding-bottom: 100px;
+    overflow: hidden;
+    z-index: -1;
+    background-color: #000; /* Fallback color */
+    background-image: url('../../../images/pawel-czerwinski-oykbZuvajO0-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; /* Ensures the image is centered */
+  }
 form {
     display: flex;
     flex-direction: column;
@@ -58,13 +70,13 @@ textarea {
 }
 .ways-to-contact {
     height: 80%;
-    width: 35%;
+    width: 30%;
     margin: 0 10% 0 0;
-    padding: 3%;
+    padding: 2%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: start;
 }
 .ways-to-contact h2{
     font-size: 32px;

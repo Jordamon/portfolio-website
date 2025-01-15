@@ -24,7 +24,7 @@
 }
 .profile-container{
     width: 60%;
-    height: 35vh;
+    height: 40vh;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -33,6 +33,7 @@
 }
 .h3-intro  {
     height: 50%;
+    margin-top: 20px;
 }
 
 .frosted-container {

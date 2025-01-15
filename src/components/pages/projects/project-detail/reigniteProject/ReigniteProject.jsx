@@ -45,14 +45,14 @@ const ReigniteProject = () => {
   return (
     <div className="projects-highlight">
       {/* Background Sections */}
-      <div className="background-container-projects-move-it"></div>
+      <div className="background-container-projects-reignite"></div>
       {/* Title Section */}
       <div className="portfolio-title-highlight">
         <h1>PROJECT PORTFOLIO</h1>
       </div>
 
       {/* Projects Section */}
-      <div className="moveit-projects-container-highlight">
+      <div className="reignite-projects-container-highlight">
         {reigniteData.map((project, index) => (
           <ProjectCard
             key={index}

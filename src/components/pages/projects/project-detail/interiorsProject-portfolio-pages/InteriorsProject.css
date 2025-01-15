@@ -22,7 +22,8 @@
 
 .individual-project-highlight img {
     position: relative;
-    bottom: 100px;
+    bottom: 50px;
+    margin-top: 70px;
 }
 
 .project-text-highlight {
