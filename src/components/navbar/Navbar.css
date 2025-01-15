@@ -1,5 +1,7 @@
 .navbar{
     width: 35vw;
+    max-width: 500px;
+    min-width: 470px;
     height: 15vh;
     display: flex;
     flex-direction: row;
@@ -41,6 +43,10 @@
 @media screen and (max-width: 1000px) {
   .listItem{
     margin-right: 10px;
+}
+.navbar {
+  width: 400px;
+  min-width: 100px;
 }
 }
 /* Media query for screens smaller than 900px */

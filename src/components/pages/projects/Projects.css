@@ -77,6 +77,8 @@
     width: 70%;
     height: 100%;
     text-align: center;
+    font-size: 24px;
+    line-height: 32px;
 }
 
 .move-it-homepage-img img{
@@ -96,6 +98,11 @@
 }
 .reverse {
     flex-direction: row-reverse;
+}
+
+.reverse img {
+    position: relative;
+    left: 10%;
 }
 
 @media screen and (min-width: 1500px){

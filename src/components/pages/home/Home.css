@@ -24,12 +24,15 @@
 }
 .profile-container{
     width: 60%;
-    height: 30vh;
+    height: 35vh;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     margin: 2% 0;
+}
+.h3-intro  {
+    height: 50%;
 }
 
 .frosted-container {
@@ -177,7 +180,8 @@ h2 {
   color: rgb(43, 43, 43); /* Default text color */
 }
 .small-btn{
-    width: 80%;
+    width: 200px;
+    height: 60px;
     display: inline-block;
   padding: 20px 40px;
   margin: 30px;
