@@ -13,7 +13,7 @@ const InteriorsProject = () => {
       text: 'Project Summary',
       imgSrc: interiorsScreenshot1,
       alt: 'Screenshot 1',
-      to: '/MoveIt',
+      to: 'https://jordamoninteriors.netlify.app/',
       customClass: 'int1',
     },
     {
@@ -21,7 +21,7 @@ const InteriorsProject = () => {
       text: 'Project Summary',
       imgSrc: interiorsScreenshot2,
       alt: 'Screenshot 2',
-      to: '/MoveIt',
+      to: 'https://jordamoninteriors.netlify.app/',
       customClass: 'int2',
     },
     {
@@ -29,7 +29,7 @@ const InteriorsProject = () => {
       text: 'Project Summary',
       imgSrc: interiorsScreenshot3,
       alt: 'Screenshot 3',
-      to: '/MoveIt',
+      to: 'https://jordamoninteriors.netlify.app/',
       customClass: 'int3',
     },
     {
@@ -37,7 +37,7 @@ const InteriorsProject = () => {
       text: 'Project Summary',
       imgSrc: interiorsScreenshot4,
       alt: 'Screenshot 4',
-      to: '/MoveIt',
+      to: 'https://jordamoninteriors.netlify.app/',
       customClass: 'int4',
     },
   ];
@@ -55,6 +55,9 @@ const InteriorsProject = () => {
       {/* Projects Section */}
       <div className="projects-container-highlight">
         {interiorsData.map((project, index) => (
+          <a href="https://jordamoninteriors.netlify.app/" 
+          target='_blank' 
+          rel="noopener noreferrer">
           <ProjectCard
             key={index}
             title={project.title}
@@ -65,6 +68,7 @@ const InteriorsProject = () => {
             className={`individual-project-highlight individual-item ${project.customClass}`}
             reverse={index % 2 !== 0} // Alternate reverse for odd/even items
           />
+          </a>
         ))}
 
         {/* Button Section */}

@@ -13,28 +13,28 @@ const MoveItProject = () => {
       text: 'This is the homepage',
       imgSrc: moveitScreenshot1,
       alt: 'Homepage screenshot',
-      to: '/MoveIt', // Adjust the route as needed
+      to: 'https://moveitv2.netlify.app/' // Adjust the route as needed
     },
     {
       title: 'Products Page',
       text: 'This is the products page',
       imgSrc: moveitScreenshot2,
       alt: 'Products page screenshot',
-      to: '/MoveIt', // Adjust the route as needed
+      to: 'https://moveitv2.netlify.app/' // Adjust the route as needed
     },
     {
       title: 'Single Product Page',
       text: 'This is the single product page',
       imgSrc: moveitScreenshot3,
       alt: 'Single product page screenshot',
-      to: '/MoveIt', // Adjust the route as needed
+      to: 'https://moveitv2.netlify.app/' // Adjust the route as needed
     },
     {
       title: 'Account Page',
       text: 'This is the account page',
       imgSrc: moveitScreenshot4,
       alt: 'Account page screenshot',
-      to: '/MoveIt', // Adjust the route as needed
+      to: 'https://moveitv2.netlify.app/' // Adjust the route as needed
     },
   ];
 
@@ -46,17 +46,19 @@ const MoveItProject = () => {
       </div>
       <div className="moveit-projects-container-highlight">
         {moveItData.map((project, index) => (
+          <a href="https://moveitv2.netlify.app/" 
+          target='_blank' 
+          rel="noopener noreferrer">
           <ProjectCard
             key={index}
             title={project.title}
             text={project.text}
             imgSrc={project.imgSrc}
             alt={project.alt}
-            to={project.to}
             className={`individual-project-highlight individual-item m${index + 1}`}
             reverse={index % 2 !== 0} // Alternate reverse for odd/even items
-
           />
+          </a>
         ))}
         <div className="button-container moveItBtn">
           <a

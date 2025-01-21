@@ -13,7 +13,7 @@ const ReigniteProject = () => {
       text: 'Project Summary',
       imgSrc: reigniteScreenshot1,
       alt: 'Screenshot 1',
-      to: '/MoveIt',
+      to: 'https://reigniteconstruction.netlify.app/',
       customClass: 'r1',
     },
     {
@@ -21,7 +21,7 @@ const ReigniteProject = () => {
       text: 'Project Summary',
       imgSrc: reigniteScreenshot2,
       alt: 'Screenshot 2',
-      to: '/MoveIt',
+      to: 'https://reigniteconstruction.netlify.app/',
       customClass: 'r2',
     },
     {
@@ -29,7 +29,7 @@ const ReigniteProject = () => {
       text: 'Project Summary',
       imgSrc: reigniteScreenshot4,
       alt: 'Screenshot 3',
-      to: '/MoveIt',
+      to: 'https://reigniteconstruction.netlify.app/',
       customClass: 'r3',
     },
     {
@@ -37,7 +37,7 @@ const ReigniteProject = () => {
       text: 'Project Summary',
       imgSrc: reigniteScreenshot3,
       alt: 'Screenshot 4',
-      to: '/MoveIt',
+      to: 'https://reigniteconstruction.netlify.app/',
       customClass: 'r4',
     },
   ];
@@ -54,6 +54,9 @@ const ReigniteProject = () => {
       {/* Projects Section */}
       <div className="reignite-projects-container-highlight">
         {reigniteData.map((project, index) => (
+          <a href="https://reigniteconstruction.netlify.app/" 
+          target='_blank' 
+          rel="noopener noreferrer">
           <ProjectCard
             key={index}
             title={project.title}
@@ -64,13 +67,14 @@ const ReigniteProject = () => {
             className={`individual-project individual-item ${project.customClass}`}
             reverse={index % 2 !== 0} // Alternate reverse for odd/even items
           />
+          </a>
         ))}
         </div>
 
         {/* Button Section */}
         <div className="button-container rBtn">
           <a
-            href="https://moveitv2.netlify.app/"
+            href="https://reigniteconstruction.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="explore-btn btn"

@@ -13,7 +13,7 @@ const TrvlrProject = () => {
       text: 'Project Summary',
       imgSrc: trvlrScreenshot1,
       alt: 'Screenshot 1',
-      to: '/MoveIt',
+      to: 'https://jordamontrvlr.netlify.app/',
       customClass: 't1',
     },
     {
@@ -21,7 +21,7 @@ const TrvlrProject = () => {
       text: 'Project Summary',
       imgSrc: trvlrScreenshot2,
       alt: 'Screenshot 2',
-      to: '/MoveIt',
+      to: 'https://jordamontrvlr.netlify.app/',
       customClass: 't2',
     },
     {
@@ -29,7 +29,7 @@ const TrvlrProject = () => {
       text: 'Project Summary',
       imgSrc: trvlrScreenshot3,
       alt: 'Screenshot 3',
-      to: '/MoveIt',
+      to: 'https://jordamontrvlr.netlify.app/',
       customClass: 't3',
     },
     {
@@ -37,7 +37,7 @@ const TrvlrProject = () => {
       text: 'Project Summary',
       imgSrc: trvlrScreenshot4,
       alt: 'Screenshot 4',
-      to: '/MoveIt',
+      to: 'https://jordamontrvlr.netlify.app/',
       customClass: 't4',
     },
   ];
@@ -55,6 +55,9 @@ const TrvlrProject = () => {
       {/* Projects Section */}
       <div className="projects-container-highlight">
         {trvlrData.map((project, index) => (
+          <a href="https://jordamontrvlr.netlify.app/" 
+          target='_blank' 
+          rel="noopener noreferrer">
           <ProjectCard
             key={index}
             title={project.title}
@@ -65,6 +68,7 @@ const TrvlrProject = () => {
             className={`moveit individual-project individual-item ${project.customClass}`}
             reverse={index % 2 !== 0} // Alternate reverse for odd/even items
           />
+          </a>
         ))}
       </div>
 

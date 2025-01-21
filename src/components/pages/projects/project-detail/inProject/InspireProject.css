@@ -2,11 +2,12 @@
     width: 100vw;
 }
 
-.portfolio-title-highlight h1{
+.projects-highlight .portfolio-title-highlight h1{
     font-size: 64px;
     position: relative;
     padding-top: 3%;
     padding-left: 3%;
+    color: white;
 }
 
 .inspire-container-highlight{
