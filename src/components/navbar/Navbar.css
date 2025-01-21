@@ -31,6 +31,7 @@
 .listItem:hover {
     background-color: #333; 
     color: #fff; 
+    transform: scale(1.1);
 }
   .navbar-toggle {
     display: none; /* Initially hidden */

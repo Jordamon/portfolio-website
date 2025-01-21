@@ -72,6 +72,49 @@ h3{
     justify-content: center;
     align-items: center;
 }
+.language-card {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+  }
+  .language-card .tooltip {
+    visibility: hidden;
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 8px;
+    position: absolute;
+    z-index: 1;
+    top: 110%; /* Position it above the language card */
+    left: 50%;
+    margin-left: -100px; /* Center the tooltip */
+    opacity: 0;
+    transition: opacity 0.3s, visibility 0.3s;
+    font-size: 14px;
+  }
+  .language-card:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+  }
+  .language-card .icon {
+    font-size: 50px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  .language-card .tooltip::after {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #333 transparent transparent transparent;
+  }
 .language-section .language-card{
     display: flex;
     flex-direction: column;
@@ -106,7 +149,12 @@ h3{
 }
 .languages .icon{
     margin: 0 30px;
+    color: rgb(43, 43, 43);
 }
+.icon:hover {
+    background-color: rgb(43, 43, 43);
+    color: white; /* This should affect the <a>, but not the SVG yet */
+  }
 .title {
     margin: 2%;
     padding-top: 0;
@@ -165,7 +213,7 @@ h2 {
     height: 4%;
 }
 .explore-btn{
-    width: 80%;
+    width: 75%;
     display: inline-block;
   padding: 20px 40px;
   margin: 30px;
@@ -200,6 +248,7 @@ h2 {
 .btn:hover {
     background-color: rgb(43, 43, 43); /* Hover background color */
     color: #fff; 
+    transform: scale(1.1);
 }
 .explore-btn:active {
     background-color: #6faad0; /* Active background color */

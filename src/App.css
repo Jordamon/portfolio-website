@@ -7,7 +7,6 @@ a {
   padding: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
-  color: rgb(43, 43, 43);
 }
 
 .app {
@@ -35,4 +34,8 @@ a {
   transform: scale(1.025);
   transition: transform 0.5s ease;
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2, h3, h4, h5, h6, p, li {
+  color: rgb(43, 43, 43);
 }
