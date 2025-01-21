@@ -69,6 +69,9 @@ textarea {
     font-size: 64px;
     color: white;
 }
+.contact-title:hover {
+    transform: scale(1.05);
+}
 .ways-to-contact {
     height: 80%;
     width: 30%;

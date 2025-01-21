@@ -40,6 +40,9 @@
     font-size: 64px;
     color: white;
 }
+.about-title:hover {
+    transform: scale(1.05);
+}
 .about-container .about-img img{
     width: 350px;
     height: 380px;
