@@ -5,6 +5,9 @@
     width: 50%;
     font-size: 64px;
 }
+.intro-text:hover {
+    transform: scale(1.05);
+}
 .intro-text h1{
     position: relative;
     padding-top: 2%;
@@ -31,9 +34,19 @@
     align-items: center;
     margin: 2% 0;
 }
+.profile-container:hover {
+    transform: scale(1.05) !important;
+}
+
 .h3-intro  {
     height: 50%;
     margin-top: 20px;
+}
+.col-1:hover{
+    transform: scale(1.05);
+}
+.col:hover{
+    transform: scale(1.05);
 }
 
 .frosted-container {
