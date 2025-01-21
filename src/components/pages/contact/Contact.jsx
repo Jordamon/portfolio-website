@@ -106,13 +106,13 @@ const Contact = () => {
             </form>
           </div>
           <div className="ways-to-contact frosted-container">
-            <h2>Fill out the form or use one of the forms of contact below:</h2><br></br>
-            <h3>
-              <FontAwesomeIcon icon={faPhone} /> Phone: 012345678
-            </h3>
-            <h3>
-              <FontAwesomeIcon icon={faEnvelope} /> Email: 123456789@12345.com
-            </h3>
+            <h4>Fill out the form or use one of the methods of contact below:</h4><br></br>
+            <p>
+              <FontAwesomeIcon icon={faPhone} /> 012345678
+            </p>
+            <p>
+              <FontAwesomeIcon icon={faEnvelope} /> 123456789@12345.com
+            </p>
           </div>
         </div>
       </motion.div>

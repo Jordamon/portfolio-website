@@ -16,13 +16,6 @@ const projectData = [
     alt: 'Screenshot of Move It homepage',
   },
   {
-    title: 'Interior Design Showcase Website',
-    imgSrc: interiorHomepage,
-    to: '/interiors',
-    text: 'A portfolio site for an interior design firm, highlighting projects and offering easy contact functionality.',
-    alt: 'Screenshot of Interior Design homepage',
-  },
-  {
     title: 'Inspire Blog Platform',
     imgSrc: inspireHomepage,
     to: '/inspire',
@@ -43,6 +36,13 @@ const projectData = [
     text: 'A dynamic travel booking platform with interactive features for planning trips and booking accommodations.',
     alt: 'Screenshot of Trvlr Travel Booking homepage',
   },
+  {
+    title: 'Interior Design Showcase Website',
+    imgSrc: interiorHomepage,
+    to: '/interiors',
+    text: 'A portfolio site for an interior design firm, highlighting projects and offering easy contact functionality.',
+    alt: 'Screenshot of Interior Design homepage',
+  }
 ];
 
 const Projects = () => {
