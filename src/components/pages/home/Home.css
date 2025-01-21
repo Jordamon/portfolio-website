@@ -1,10 +1,4 @@
-.intro-text{
-    position: relative;
-    padding-top: 2%;
-    left: 1%;
-    width: 50%;
-    font-size: 64px;
-}
+
 .intro-text:hover {
     transform: scale(1.05);
 }
@@ -15,15 +9,14 @@
     width: 100%;
     font-size: 64px;
     color: white;
-    z-index: 2;
 }
 
 .intro-text h2 {
     font-weight: 200;
     font-size: 32px;
     position: relative;
-    padding-top: 1%;
-    left: 3%;
+    padding-top: 0%;
+    left: 1%;
 }
 .profile-container{
     width: 60%;
