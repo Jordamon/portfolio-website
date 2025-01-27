@@ -17,7 +17,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin: 10% 10% 0 15%;
+    margin: 5% 10% 0 15%;
     padding-bottom: 5%;
 }
 
@@ -66,10 +66,10 @@
     height: 5%;
 }
 .moveit-projects-container-highlight .m2 {
-    margin-top: 1750px;
+    margin-top: 1450px;
 }
 .moveit-projects-container-highlight .m3 {
-    margin-top: 1200px;
+    margin-top: 1000px;
 }
 .moveit-projects-container-highlight .m4 {
     margin-top: 350px;
