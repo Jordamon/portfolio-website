@@ -136,6 +136,9 @@
     }
 }
 @media screen and (max-width: 500px){
+    .portfolio-title h1{
+        font-size: 28px;
+    } 
     .move-it-homepage-img img{
         min-height: 150px;
         min-width: 180px;
