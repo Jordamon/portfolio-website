@@ -110,7 +110,7 @@ const Contact = () => {
             <h3>Fill out the form or use one of the methods of contact below:</h3><br></br>
             <div className="alt-contact-container">
               <a href="https://wa.me/07846579793" target="_blank" rel="noopener noreferrer">
-                <FontAwesomeIcon icon={faWhatsapp} className='icon'/>  
+                <FontAwesomeIcon icon={faWhatsapp} className='icon small'/>  
                 <h4>https://wa.me/07846579793</h4></a> 
             </div>
             <br/>
@@ -120,7 +120,7 @@ const Contact = () => {
             <br/>
             <div className="alt-contact-container">
               <a href="https://www.instagram.com/jordamon_/" target="_blank" rel="noopener noreferrer">
-                          <FontAwesomeIcon icon={faInstagram} className='icon'/>  <h4>https://www.instagram.com/jordamon_/</h4></a>  
+                          <FontAwesomeIcon icon={faInstagram} className='icon small'/>  <h4>https://www.instagram.com/jordamon_/</h4></a>  
             </div>
             <br/>
             <div className="alt-contact-container">
