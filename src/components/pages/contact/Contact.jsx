@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import './Contact.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faPhone, faEnvelope} from '@fortawesome/free-solid-svg-icons';
+import {faWhatsapp, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -75,7 +76,7 @@ const Contact = () => {
                 type="email"
                 id="email"
                 name="email"
-                placeholder="Email ID"
+                placeholder="Email"
                 required
                 value={formData.email}
                 onChange={handleChange}
@@ -106,13 +107,25 @@ const Contact = () => {
             </form>
           </div>
           <div className="ways-to-contact frosted-container">
-            <h4>Fill out the form or use one of the methods of contact below:</h4><br></br>
-            <p>
-              <FontAwesomeIcon icon={faPhone} /> 012345678
-            </p>
-            <p>
-              <FontAwesomeIcon icon={faEnvelope} /> 123456789@12345.com
-            </p>
+            <h3>Fill out the form or use one of the methods of contact below:</h3><br></br>
+            <div className="alt-contact-container">
+              <a href="https://wa.me/07846579793" target="_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon icon={faWhatsapp} className='icon'/>  
+                <h4>https://wa.me/07846579793</h4></a> 
+            </div>
+            <br/>
+            <div className="alt-contact-container">
+              <FontAwesomeIcon icon={faPhone} className='icon'/>  <h4>012345678</h4>
+            </div>
+            <br/>
+            <div className="alt-contact-container">
+              <a href="https://www.instagram.com/jordamon_/" target="_blank" rel="noopener noreferrer">
+                          <FontAwesomeIcon icon={faInstagram} className='icon'/>  <h4>https://www.instagram.com/jordamon_/</h4></a>  
+            </div>
+            <br/>
+            <div className="alt-contact-container">
+              <FontAwesomeIcon icon={faEnvelope} className='icon'/>  <h4>123456789@12345.com</h4>
+            </div>
           </div>
         </div>
       </motion.div>
