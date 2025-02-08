@@ -69,8 +69,8 @@
       position: absolute;
       top: 60px; /* Adjust this value based on your design */
       right: 0;
-      width: 100%;
-      text-align: right;
+      width: auto;
+      text-align: left;
     }
   
     .navbarList.show {
