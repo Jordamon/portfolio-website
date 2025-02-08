@@ -105,7 +105,7 @@ const Contact = () => {
                 {isSubmitting ? 'Sending...' : 'Send'}
               </button>
             </form>
-          </div>
+          
           <div className="ways-to-contact frosted-container">
             <h3>Fill out the form or use one of the methods of contact below:</h3><br></br>
             <div className="alt-contact-container">
@@ -126,6 +126,7 @@ const Contact = () => {
             <div className="alt-contact-container">
               <FontAwesomeIcon icon={faEnvelope} className='icon'/>  <h4>123456789@12345.com</h4>
             </div>
+          </div>
           </div>
         </div>
       </motion.div>

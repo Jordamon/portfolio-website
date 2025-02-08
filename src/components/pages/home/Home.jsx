@@ -39,7 +39,7 @@ const Home = () => (
 
       {/* Render Language Sections */}
       <div className="skills">
-      <div className='lang-card'><LanguageSection title="Here are my core languages:" languages={coreLanguages} /></div>
+      <div className='lang-card'><LanguageSection title="My core languages:" languages={coreLanguages} /></div>
       <div className='lang-card'><LanguageSection title="I have some experience in:" languages={otherLanguages} /></div>
       </div>
       <div className="skills">
