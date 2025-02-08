@@ -1,8 +1,8 @@
 .background-container-projects-reignite {
-    position: absolute;
+    position: fixed;
     top: 0;
     width: 100vw;
-    height: 3100px;
+    height: 100vh;
     overflow: hidden;
     z-index: -1;  
     background-repeat: repeat-y;
@@ -12,26 +12,26 @@
   }
   .reignite-projects-container-highlight{
     width: 75%;
-    height: 2500px;
+    height: 2000px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin: 10% 10% 0 15%;
+    margin: 10% 10% 0 10%;
     padding-bottom: 5%;
 }
 
 .individual-project.r1 {
-    margin-top: 20%;
+    margin-top: 15%;
 }
 .individual-project.r1 img {
     height: 5%;
 }
 .individual-project.r2 {
-    margin-top: 350px;
+    margin-top: 300px;
 }
 .individual-project.r3 {
-    margin-top: 200px;
+    margin-top: 150px;
 }
 .individual-project.r4 {
     margin-top: 150px;

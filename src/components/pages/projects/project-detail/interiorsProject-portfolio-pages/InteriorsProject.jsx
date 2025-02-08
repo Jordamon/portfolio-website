@@ -45,7 +45,7 @@ const InteriorsProject = () => {
   return (
     <div className="projects-highlight">
       {/* Background Section */}
-      <div className="background-container-projects"></div>
+      <div className="background-container"></div>
 
       {/* Title Section */}
       <div className="portfolio-title-highlight">
@@ -53,7 +53,7 @@ const InteriorsProject = () => {
       </div>
 
       {/* Projects Section */}
-      <div className="projects-container-highlight">
+      <div className="interiors-project-container-highlight">
         {interiorsData.map((project, index) => (
           <a href="https://jordamoninteriors.netlify.app/" 
           target='_blank' 
@@ -65,7 +65,7 @@ const InteriorsProject = () => {
             imgSrc={project.imgSrc}
             alt={project.alt}
             to={project.to}
-            className={`individual-project-highlight individual-item ${project.customClass}`}
+            className={`moveit individual-project individual-item ${project.customClass}`}
             reverse={index % 2 !== 0} // Alternate reverse for odd/even items
           />
           </a>

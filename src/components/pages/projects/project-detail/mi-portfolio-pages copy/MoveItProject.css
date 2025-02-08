@@ -11,28 +11,27 @@
 }
 
 .moveit-projects-container-highlight{
-    width: 75%;
-    height: 3750px;
+    width: 85%;
+    height: 100px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin: 5% 10% 0 15%;
+    margin: 5% 5% 0 5%;
     padding-bottom: 5%;
 }
 
 .background-container-projects-move-it {
-    position: absolute;
+    position: fixed;
     top: 0;
     width: 100vw;
-    height: 5600px;
-    overflow: hidden;
+    height: 100vh; /* Ensures full viewport coverage */
     z-index: -1;  
     background-repeat: repeat-y;
     background-size: cover;
-    background-image: 
-      url('../../../../../images/pawel-czerwinski-oykbZuvajO0-unsplash.jpg');
-  }
+    background-image: url('../../../../../images/pawel-czerwinski-oykbZuvajO0-unsplash.jpg');
+}
+
 
 .individual-project-highlight img {
     position: relative;
@@ -66,16 +65,16 @@
     height: 5%;
 }
 .moveit-projects-container-highlight .m2 {
-    margin-top: 1450px;
+    margin-top: 1150px;
 }
 .moveit-projects-container-highlight .m3 {
-    margin-top: 1000px;
+    margin-top: 700px;
 }
 .moveit-projects-container-highlight .m4 {
-    margin-top: 350px;
+    margin-top: 50px;
 }
 .moveItBtn {
-    margin-top: 30%;
+    margin-top: 0%;
 }
 
 

@@ -45,7 +45,7 @@ const TrvlrProject = () => {
   return (
     <div className="projects-highlight">
       {/* Background Section */}
-      <div className="background-container-projects"></div>
+      <div className="background-container"></div>
 
       {/* Title Section */}
       <div className="portfolio-title-highlight">
@@ -53,7 +53,7 @@ const TrvlrProject = () => {
       </div>
 
       {/* Projects Section */}
-      <div className="projects-container-highlight">
+      <div className="trvlr-projects-container-highlight">
         {trvlrData.map((project, index) => (
           <a href="https://jordamontrvlr.netlify.app/" 
           target='_blank' 

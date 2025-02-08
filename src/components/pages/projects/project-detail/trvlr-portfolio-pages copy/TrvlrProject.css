@@ -19,6 +19,16 @@
     margin: 5% auto 0 auto;
     padding-bottom: 5%;
 }
+.trvlr-projects-container-highlight{
+    width: 75%;
+    height: 1500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 7% 10% 0 10%;
+    padding-bottom: 5%;
+}
 
 .individual-project-highlight img {
     position: relative;
@@ -49,7 +59,7 @@
 }
 
 .t1 {
-    margin-top: 2%;
+    margin-top: 0;
 }
 /* .t1 img {
     width: 80%;
@@ -65,5 +75,5 @@
     margin-top: 60px;
 }
 .trvlrBtn {
-    margin-top: -50px;
+    margin-top: 50px;
 }
