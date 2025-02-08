@@ -9,7 +9,7 @@
     position: absolute;
     top: 0;
     width: 100vw;
-    height: 2450px;
+    height: auto;
     overflow: hidden;
     z-index: -1;  
     background-repeat: repeat-y;
@@ -84,11 +84,19 @@
     margin-left: 20%;
 }
 
-@media screen and (min-width: 2000px){
+@media screen and (min-width: 1800px){
     .about-container .about-img img {
         height: 600px;
         min-height: 500px;
         min-width: 500px;
+    }
+}
+@media screen and (min-width: 1500px){
+    .about-container h2{
+        font-size: 50px;
+    }
+    .about-container p{
+        font-size: 28px;
     }
 }
 @media screen and (max-width: 1250px){
