@@ -7,20 +7,22 @@ import './InspireProject.css';
 const InspireProject = () => {
   const inspireData = [
     {
-      title: 'Move it Gym-wear E-commerce Website',
-      text: 'This project demonstrates a modern e-commerce website designed for a fictional gym-wear brand, featuring a responsive layout and interactive features.',
+      title: 'Inspirational Nonsense Generator',
+      text: 'A fun JavaScript project that dynamically generates humorous, nonsensical quotes using arrays, string manipulation, and randomized functions. Built with vanilla JavaScript, HTML, and CSS to demonstrate dynamic content generation and DOM updates.',
       imgSrc: inspireScreenshot1,
-      alt: 'Screenshot of MoveIt Gym-wear Homepage',
-      to: 'https://inspire-no-one.netlify.app/', // Adjust the route as needed
+      alt: 'Screenshot of the Inspirational Nonsense Generator interface',
+      to: 'https://inspire-no-one.netlify.app/',
     },
     {
-      title: 'Move it Gym-wear E-commerce Website',
-      text: 'Explore a professional and user-friendly design tailored for seamless shopping experiences, showcasing product galleries, cart functionalities, and more.',
+      title: 'Minimalistic & Interactive Design',
+      text: 'Designed with a clean UI and optimized JavaScript code, this project showcases event-driven programming, efficient DOM manipulation, and simple yet effective styling to enhance user experience.',
       imgSrc: inspireScreenshot2,
-      alt: 'Alternate view of MoveIt Gym-wear Homepage',
-      to: 'https://inspire-no-one.netlify.app/', // Adjust the route as needed
+      alt: 'Alternative view of the Inspirational Nonsense Generator interface',
+      to: 'https://inspire-no-one.netlify.app/',
     },
   ];
+  
+  
 
   return (
     <div className="projects-highlight">

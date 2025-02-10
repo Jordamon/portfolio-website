@@ -9,38 +9,39 @@ import './InteriorsProject.css';
 const InteriorsProject = () => {
   const interiorsData = [
     {
-      title: 'Move it Gym-wear E-commerce Website',
-      text: 'Project Summary',
+      title: 'Interior Design Styles Showcase',
+      text: 'A static website designed to highlight aesthetic principles in interior design while demonstrating fundamental HTML and CSS for layout and styling.',
       imgSrc: interiorsScreenshot1,
-      alt: 'Screenshot 1',
+      alt: 'Screenshot of the Interior Design Styles website homepage',
       to: 'https://jordamoninteriors.netlify.app/',
       customClass: 'int1',
     },
     {
-      title: 'Move it Gym-wear E-commerce Website',
-      text: 'Project Summary',
+      title: 'Elegant and Readable Design',
+      text: 'This project focuses on presenting information in a visually appealing and structured way, emphasizing typography, spacing, and layout for clarity.',
       imgSrc: interiorsScreenshot2,
-      alt: 'Screenshot 2',
+      alt: 'Screenshot showcasing content layout and typography',
       to: 'https://jordamoninteriors.netlify.app/',
       customClass: 'int2',
     },
     {
-      title: 'Move it Gym-wear E-commerce Website',
-      text: 'Project Summary',
+      title: 'User-Friendly Footer Design',
+      text: 'A well-structured footer enhances user experience by providing easy access to contact details and essential links, improving website navigation.',
       imgSrc: interiorsScreenshot3,
-      alt: 'Screenshot 3',
+      alt: 'Screenshot of the footer section with contact and navigation links',
       to: 'https://jordamoninteriors.netlify.app/',
       customClass: 'int3',
     },
     {
-      title: 'Move it Gym-wear E-commerce Website',
-      text: 'Project Summary',
+      title: 'Code-Based Styling and Custom Backgrounds',
+      text: 'All visual elements, including the custom background and page styling, were created using pure CSS without relying on external design software, demonstrating the power of in-code design techniques.',
       imgSrc: interiorsScreenshot4,
-      alt: 'Screenshot 4',
+      alt: 'Screenshot highlighting custom CSS styling and backgrounds',
       to: 'https://jordamoninteriors.netlify.app/',
       customClass: 'int4',
     },
   ];
+  
 
   return (
     <div className="projects-highlight">

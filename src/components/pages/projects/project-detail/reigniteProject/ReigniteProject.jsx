@@ -9,38 +9,39 @@ import './ReigniteProject.css';
 const ReigniteProject = () => {
   const reigniteData = [
     {
-      title: 'Move it Gym-wear E-commerce Website',
-      text: 'Project Summary',
+      title: 'Reignite Construction Company Website',
+      text: 'A simple yet professional static website designed to establish credibility for a newly launched construction company. Built with clean HTML and CSS, it provides essential business information while allowing the client to publish blog posts and engage with potential customers.',
       imgSrc: reigniteScreenshot1,
-      alt: 'Screenshot 1',
+      alt: 'Screenshot of the Reignite Construction homepage',
       to: 'https://reigniteconstruction.netlify.app/',
       customClass: 'r1',
     },
     {
-      title: 'Move it Gym-wear E-commerce Website',
-      text: 'Project Summary',
+      title: 'About Us Page',
+      text: 'A dedicated "About Us" section that presents the company’s mission, values, and expertise in a clear and engaging format to build trust with visitors.',
       imgSrc: reigniteScreenshot2,
-      alt: 'Screenshot 2',
+      alt: 'Screenshot of the About Us page',
       to: 'https://reigniteconstruction.netlify.app/',
       customClass: 'r2',
     },
     {
-      title: 'Move it Gym-wear E-commerce Website',
-      text: 'Project Summary',
+      title: 'Contact Form',
+      text: 'A simple and accessible contact form that allows potential clients to easily reach out to the company. Designed for clarity and ease of use.',
       imgSrc: reigniteScreenshot4,
-      alt: 'Screenshot 3',
+      alt: 'Screenshot of the Contact Us page',
       to: 'https://reigniteconstruction.netlify.app/',
       customClass: 'r3',
     },
     {
-      title: 'Move it Gym-wear E-commerce Website',
-      text: 'Project Summary',
+      title: 'Blog Section (Coming Soon)',
+      text: 'A placeholder for the company’s upcoming blog, where they will share updates, insights, and industry knowledge to engage with their audience.',
       imgSrc: reigniteScreenshot3,
-      alt: 'Screenshot 4',
+      alt: 'Screenshot of the blog coming soon page',
       to: 'https://reigniteconstruction.netlify.app/',
       customClass: 'r4',
     },
   ];
+  
 
   return (
     <div className="projects-highlight">

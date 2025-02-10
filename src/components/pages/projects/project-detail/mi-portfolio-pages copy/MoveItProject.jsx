@@ -9,34 +9,35 @@ import './MoveItProject.css';
 const MoveItProject = () => {
   const moveItData = [
     {
-      title: 'Homepage',
-      text: 'This is the homepage',
+      title: 'Move It E-Commerce Homepage',
+      text: 'A modern, fully responsive e-commerce homepage designed for a seamless user experience. Features clean UI/UX principles and intuitive navigation for easy product discovery.',
       imgSrc: moveitScreenshot1,
-      alt: 'Homepage screenshot',
-      to: 'https://moveitv2.netlify.app/' // Adjust the route as needed
+      alt: 'Screenshot of the Move It e-commerce homepage',
+      to: 'https://moveitv2.netlify.app/'
     },
     {
-      title: 'Products Page',
-      text: 'This is the products page',
+      title: 'Dynamic Products Page',
+      text: 'A dynamically generated product listing page using JavaScript. Includes filtering options to enhance user experience and improve product discoverability.',
       imgSrc: moveitScreenshot2,
-      alt: 'Products page screenshot',
-      to: 'https://moveitv2.netlify.app/' // Adjust the route as needed
+      alt: 'Screenshot of the Move It products page',
+      to: 'https://moveitv2.netlify.app/'
     },
     {
-      title: 'Single Product Page',
-      text: 'This is the single product page',
+      title: 'Interactive Single Product Page',
+      text: 'A fully dynamic product details page featuring dropdowns for size selection, multiple product images that change on selection, and an "Add to Cart" function that stores data in local storage for persistence.',
       imgSrc: moveitScreenshot3,
-      alt: 'Single product page screenshot',
-      to: 'https://moveitv2.netlify.app/' // Adjust the route as needed
+      alt: 'Screenshot of the Move It single product page',
+      to: 'https://moveitv2.netlify.app/'
     },
     {
-      title: 'Account Page',
-      text: 'This is the account page',
+      title: 'Account & Payment Integration',
+      text: 'A responsive website with basic user authentication and login functionality. Integrated with Stripe for secure payment processing. Includes a contact form that sends user messages via email.',
       imgSrc: moveitScreenshot4,
-      alt: 'Account page screenshot',
-      to: 'https://moveitv2.netlify.app/' // Adjust the route as needed
+      alt: 'Screenshot of the Move It account page',
+      to: 'https://moveitv2.netlify.app/'
     },
   ];
+  
 
   return (
     <div className="projects-highlight">

@@ -9,38 +9,39 @@ import './TrvlrProject.css';
 const TrvlrProject = () => {
   const trvlrData = [
     {
-      title: 'Move it Gym-wear E-commerce Website',
-      text: 'Project Summary',
+      title: 'TRVLR React App',
+      text: 'A modern travel website built with React, designed to showcase destinations and travel services with a sleek, interactive user experience.',
       imgSrc: trvlrScreenshot1,
-      alt: 'Screenshot 1',
+      alt: 'Screenshot of the TRVLR React App homepage',
       to: 'https://jordamontrvlr.netlify.app/',
       customClass: 't1',
     },
     {
-      title: 'Move it Gym-wear E-commerce Website',
-      text: 'Project Summary',
+      title: 'Striking Visual Design',
+      text: 'Features powerful, high-quality background images combined with contrasting text to create a bold and memorable first impression.',
       imgSrc: trvlrScreenshot2,
-      alt: 'Screenshot 2',
+      alt: 'Screenshot showcasing TRVLR’s design elements',
       to: 'https://jordamontrvlr.netlify.app/',
       customClass: 't2',
     },
     {
-      title: 'Move it Gym-wear E-commerce Website',
-      text: 'Project Summary',
+      title: 'Fully Responsive Layout & Detailed Footer',
+      text: 'Designed for all screen sizes with a well-structured footer containing essential information, ensuring easy navigation and accessibility.',
       imgSrc: trvlrScreenshot3,
-      alt: 'Screenshot 3',
+      alt: 'Screenshot of the TRVLR website’s footer and responsive design',
       to: 'https://jordamontrvlr.netlify.app/',
       customClass: 't3',
     },
     {
-      title: 'Move it Gym-wear E-commerce Website',
-      text: 'Project Summary',
+      title: 'Reusable React Components',
+      text: 'Built using modular and reusable React components to generate dynamic content, ensuring clean, efficient, and scalable code.',
       imgSrc: trvlrScreenshot4,
-      alt: 'Screenshot 4',
+      alt: 'Screenshot of the dynamically generated travel cards',
       to: 'https://jordamontrvlr.netlify.app/',
       customClass: 't4',
     },
   ];
+  
 
   return (
     <div className="projects-highlight">
