@@ -22,11 +22,13 @@ a {
   height: 100%;
   overflow: hidden;
   z-index: -1;
-  background-color: #000; /* Fallback color */
-  background-image: url('./images/pawel-czerwinski-oykbZuvajO0-unsplash.jpg');
+  background-color: #000;
+  background-image: url('./images/milad-fakurian-PjG_SXDkpwQ-unsplash.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center; /* Ensures the image is centered */
+  background-position: center;
+  image-rendering: crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
 }
 
 
@@ -37,5 +39,5 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6, p, li {
-  color: rgb(43, 43, 43);
+  color: rgb(255, 255, 255);
 }

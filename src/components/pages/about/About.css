@@ -8,14 +8,12 @@
 .about-container-projects {
     position: absolute;
     top: 0;
-    width: 100vw;
-    height: auto;
+    width: 100%;
     overflow: hidden;
     z-index: -1;  
-    background-repeat: repeat-y;
     background-size: cover;
     background-image: 
-      url('../../../images/pawel-czerwinski-oykbZuvajO0-unsplash.jpg');
+      url('../../../images/cat-han-tkXYbVEINXw-unsplash.jpg');
   }
 
 .my-info{
