@@ -7,7 +7,7 @@
     position: relative;
     padding-top: 3%;
     padding-left: 3%;
-    color: white;
+    color: #494949;
 }
 
 .moveit-projects-container-highlight{
@@ -29,7 +29,7 @@
     z-index: -1;  
     background-repeat: repeat-y;
     background-size: cover;
-    background-image: url('../../../../../images/pawel-czerwinski-oykbZuvajO0-unsplash.jpg');
+    background-image: url('../../../../../images/pexels-adrien-olichon-1257089-3137052.jpg');
 }
 
 

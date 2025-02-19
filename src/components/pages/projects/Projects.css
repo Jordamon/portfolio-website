@@ -12,7 +12,7 @@
     background-repeat: repeat-y;
     background-size: cover;
     background-image: 
-      url('../../../images/pawel-czerwinski-oykbZuvajO0-unsplash.jpg');
+      url('../../../images/pexels-adrien-olichon-1257089-3137052.jpg');
   }
   
 .portfolio-title h1{
@@ -21,7 +21,7 @@
     left: 3%;
     width: 100%;
     font-size: 64px;
-    color: white;
+    color: #494949;
 }
 .portfolio-title:hover {
     transform: scale(1.05);
@@ -50,7 +50,7 @@
     border-radius: 25px;
     -webkit-backdrop-filter: saturate(100% )blur(5px);
     backdrop-filter: saturate(100% )blur(5px);
-    border: solid white 1px;
+    border: solid #494949 1px;
     cursor: pointer;
     width: 100%;
 }

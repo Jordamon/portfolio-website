@@ -22,7 +22,7 @@
     overflow: hidden;
     z-index: -1;
     background-color: #000; /* Fallback color */
-    background-image: url('../../../images/pawel-czerwinski-oykbZuvajO0-unsplash.jpg');
+    background-image: url('../../../images/pexels-adrien-olichon-1257089-3137052.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; /* Ensures the image is centered */
@@ -42,7 +42,7 @@ form {
 form h3 {
     font-size: 1.8rem;
     font-weight: 600;
-    color: #333;
+    color: #494949;
     margin-bottom: 20px;
 }
 input, textarea {
@@ -69,7 +69,7 @@ textarea {
     left: 3%;
     width: 100%;
     font-size: 64px;
-    color: white;
+    color: #494949;
 }
 .contact-title:hover {
     transform: scale(1.05);

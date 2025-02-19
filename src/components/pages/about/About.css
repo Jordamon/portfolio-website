@@ -13,14 +13,14 @@
     z-index: -1;  
     background-size: cover;
     background-image: 
-      url('../../../images/cat-han-tkXYbVEINXw-unsplash.jpg');
+      url('../../../images/pexels-adrien-olichon-1257089-3137052.jpg');
   }
 
 .my-info{
     width: 70%;
     height: auto;
     border-radius: 20px;
-    border: 2px solid black;
+    border: 2px solid #494949;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,7 +36,7 @@
     left: 3%;
     width: 100%;
     font-size: 64px;
-    color: white;
+    color: #494949;
 }
 .about-title:hover {
     transform: scale(1.05);
@@ -56,7 +56,7 @@
     justify-content: space-between;
     align-items: center;
     height: 40vh;
-    border: solid white 1px;
+    border: solid #494949 1px;
     cursor: pointer;
 }
 .reverse {

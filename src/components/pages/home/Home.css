@@ -11,7 +11,7 @@
     left: 3%;
     width: 100%;
     font-size: 64px;
-    color: white;
+    color: #494949;
 }
 
 .intro-text h2 {
@@ -51,7 +51,7 @@
     border-radius: 25px;
     -webkit-backdrop-filter: saturate(100% )blur(5px);
     backdrop-filter: saturate(100% )blur(5px);
-    border: solid 1px white;
+    border: solid 1px #494949;
 }
 
 .profile-container img{
@@ -158,10 +158,10 @@ h3{
 }
 .languages .icon{
     margin: 0 30px;
-    color: rgb(43, 43, 43);
+    color: #494949;
 }
 .icon:hover {
-    background-color: rgb(43, 43, 43);
+    background-color: #494949;
     color: white; /* This should affect the <a>, but not the SVG yet */
   }
 .title {
@@ -235,7 +235,7 @@ h2 {
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
   background-color: white; /* Default background color */
-  color: rgb(43, 43, 43); /* Default text color */
+  color: #494949; /* Default text color */
 }
 .small-btn{
     width: 200px;
@@ -252,10 +252,10 @@ h2 {
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
   background-color: white; /* Default background color */
-  color: rgb(43, 43, 43); /* Default text color */
+  color: #494949; /* Default text color */
 }
 .btn:hover {
-    background-color: rgb(43, 43, 43); /* Hover background color */
+    background-color: #494949; /* Hover background color */
     color: #fff; 
     transform: scale(1.1);
 }
