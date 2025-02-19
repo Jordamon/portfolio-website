@@ -38,6 +38,11 @@
     bottom: 100px;
 }
 
+.moveit-projects-container-highlight .individual-project-highlight{
+    width: 100%;
+    margin-left: 5%;
+}
+
 .project-text-highlight {
     display: flex;
     flex-direction: column;
