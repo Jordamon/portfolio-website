@@ -10,7 +10,7 @@ const ReigniteProject = () => {
   const reigniteData = [
     {
       title: 'Reignite Construction Company Website',
-      text: 'A simple yet professional static website designed to establish credibility for a newly launched construction company. Built with clean HTML and CSS, it provides essential business information while allowing the client to publish blog posts and engage with potential customers.',
+      text: 'A simple yet professional static website designed to establish credibility for a newly launched construction company. Built with clean HTML and CSS, it provides essential business information.',
       imgSrc: reigniteScreenshot1,
       alt: 'Screenshot of the Reignite Construction homepage',
       to: 'https://reigniteconstruction.netlify.app/',

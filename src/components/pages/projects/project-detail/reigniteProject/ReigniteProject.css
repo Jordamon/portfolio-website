@@ -22,13 +22,17 @@
 }
 
 .individual-project.r1 {
-    margin-top: 15%;
+    margin-top: 0%;
+    align-items: flex-start;
+}
+.individual-project.r1 img {
+    margin-top: -80px;
 }
 .individual-project.r1 img {
     height: 5%;
 }
 .individual-project.r2 {
-    margin-top: 300px;
+    margin-top: 420px;
 }
 .individual-project.r3 {
     margin-top: 150px;

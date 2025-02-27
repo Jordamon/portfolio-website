@@ -70,13 +70,13 @@
     height: 5%;
 }
 .moveit-projects-container-highlight .m2 {
-    margin-top: 1150px;
+    margin-top: 1350px;
 }
 .moveit-projects-container-highlight .m3 {
-    margin-top: 700px;
+    margin-top: 850px;
 }
 .moveit-projects-container-highlight .m4 {
-    margin-top: 50px;
+    margin-top: 120px;
 }
 .moveItBtn {
     margin: 0 0 0 10%;
@@ -91,9 +91,12 @@
         margin-top: 1950px;
     }
     .moveit-projects-container-highlight .m3 {
-        margin-top: 1400px;
+        margin-top: 1300px;
     }
     .moveit-projects-container-highlight .m4 {
         margin-top: 350px;
+    }
+    .moveItBtn {
+        margin: 10% 0 10% 10%;
     }
 }

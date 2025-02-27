@@ -25,6 +25,7 @@ const InspireProject = () => {
   
 
   return (
+    <div className="inspire">
     <div className="projects-highlight">
       {/* Background Section */}
       <div className="background-container"></div>
@@ -35,7 +36,7 @@ const InspireProject = () => {
       </div>
 
       {/* Projects Section */}
-      <div className="projects-container individual-item">
+      <div className="projects-container ">
         {inspireData.map((project, index) => (
           <a href="https://inspire-no-one.netlify.app/" 
           target='_blank' 
@@ -64,6 +65,7 @@ const InspireProject = () => {
           </a>
         </div>
       </div>
+    </div>
     </div>
   );
 };
