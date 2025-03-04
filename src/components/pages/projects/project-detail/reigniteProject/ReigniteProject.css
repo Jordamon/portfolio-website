@@ -4,15 +4,15 @@
     width: 100vw;
     height: 100vh;
     overflow: hidden;
-    z-index: -1;  
+    z-index: -1;
     background-repeat: repeat-y;
     background-size: cover;
-    background-image: 
-      url('../../../../../images/pexels-adrien-olichon-1257089-3137052.jpg');
-  }
-  .reignite-projects-container-highlight{
+    background-image: url('../../../../../images/pexels-adrien-olichon-1257089-3137052.jpg');
+}
+
+.reignite-projects-container-highlight {
     width: 75%;
-    height: 2000px;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -22,34 +22,39 @@
 }
 
 .individual-project.r1 {
-    margin-top: 0%;
+    margin-top: 0;
     align-items: flex-start;
 }
 .individual-project.r1 img {
+    height: 150vh; /* Adjusted */
     margin-top: -80px;
 }
-.individual-project.r1 img {
-    height: 5%;
-}
 .individual-project.r2 {
-    margin-top: 420px;
+    margin-top: 110vh;
 }
 .individual-project.r3 {
-    margin-top: 150px;
+    margin-top: 25vh;
 }
 .individual-project.r4 {
-    margin-top: 150px;
+    margin-top: 25vh;
 }
-
 .rBtn {
-    margin-top: 100px;
+    margin-top: -5vh;
+    margin-bottom: 10vh;
 }
 
 @media screen and (min-width: 1500px) {
-    .background-container-projects-reignite {
-        height: 4000px;
+    .individual-project.r2 {
+        margin-top: 110vh;
+    }
+    .individual-project.r3 {
+        margin-top: 10vh;
+    }
+    .individual-project.r4 {
+        margin-top: 10vh;
     }
     .rBtn {
-        margin-top: 800px;
+        margin-top: -5vh;
+        margin-bottom: 10vh;
     }
 }

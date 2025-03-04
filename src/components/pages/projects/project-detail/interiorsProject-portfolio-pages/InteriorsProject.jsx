@@ -71,6 +71,7 @@ const InteriorsProject = () => {
           />
           </a>
         ))}
+        </div>
 
         {/* Button Section */}
         <div className="button-container intBtn">
@@ -82,7 +83,7 @@ const InteriorsProject = () => {
           >
             Try out this site!
           </a>
-        </div>
+        
       </div>
     </div>
   );

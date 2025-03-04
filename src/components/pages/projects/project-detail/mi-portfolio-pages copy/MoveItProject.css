@@ -2,7 +2,7 @@
     width: 100vw;
 }
 
-.portfolio-title-highlight h1{
+.portfolio-title-highlight h1 {
     font-size: 64px;
     position: relative;
     padding-top: 3%;
@@ -10,14 +10,14 @@
     color: #494949;
 }
 
-.moveit-projects-container-highlight{
+.moveit-projects-container-highlight {
     width: 85%;
-    height: 100px;
+    min-height: 100vh; /* Replace height: 100px with min-height */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin: 5% 5% 0 5%;
+    margin: 0% 5% 0 5%;
     padding-bottom: 5%;
 }
 
@@ -25,20 +25,20 @@
     position: fixed;
     top: 0;
     width: 100vw;
-    height: 100vh; /* Ensures full viewport coverage */
-    z-index: -1;  
+    height: 100vh; /* Keep full viewport coverage */
+    z-index: -1;
     background-repeat: repeat-y;
     background-size: cover;
     background-image: url('../../../../../images/pexels-adrien-olichon-1257089-3137052.jpg');
 }
 
-
 .individual-project-highlight img {
     position: relative;
-    bottom: 100px;
+    bottom: 5vh; /* Replace 100px with viewport-relative unit */
+    width: 100%; /* Ensure images scale */
 }
 
-.moveit-projects-container-highlight .individual-project-highlight{
+.moveit-projects-container-highlight .individual-project-highlight {
     width: 100%;
     margin-left: 5%;
 }
@@ -49,54 +49,68 @@
     justify-content: center;
     align-items: center;
     width: 70%;
-    height: 100%;
+    min-height: 100%; /* Flexible height */
     text-align: center;
 }
 
-.move-it-homepage-img-highlight img{
+.move-it-homepage-img-highlight img {
     width: 100%;
     border-radius: 25px;
     margin: 2%;
     position: relative;
-    right: 10%;
+    right: 10%; /* Percentage is fine */
 }
 
 .right-project {
     position: relative;
-    left: 10%;
+    left: 10%; /* Percentage is fine */
 }
+
 .individual-project-highlight .m1 img {
     width: 80%;
-    height: 5%;
+    height: 5vh; /* Replace 5% with vh for consistency */
 }
+.individual-project-highlight .m1 {
+    margin-top: -20vh;
+    border: solid red 1px;
+}
+
 .moveit-projects-container-highlight .m2 {
-    margin-top: 1350px;
+    margin-top: 210vh; /* Replace 1350px with viewport-relative unit */
 }
+
 .moveit-projects-container-highlight .m3 {
-    margin-top: 850px;
+    margin-top: 140vh; /* Replace 850px */
 }
+
 .moveit-projects-container-highlight .m4 {
-    margin-top: 120px;
+    margin-top: 20vh; /* Replace 120px */
 }
+
 .moveItBtn {
-    margin: 0 0 0 10%;
+    margin-top: 0vh; /* Keep as-is unless spacing needs adjustment */
+    margin-bottom: 5vh;
 }
 
-
+/* Refined media query for larger screens */
 @media screen and (min-width: 1500px) {
-    .background-container-projects-move-it {
-        height: 7000px;
-      }
+    .portfolio-title-highlight h1 {
+        font-size: 80px; /* Larger for bigger screens */
+    }
     .moveit-projects-container-highlight .m2 {
-        margin-top: 1950px;
+        margin-top: 170vh; /* Adjusted from 1950px */
     }
     .moveit-projects-container-highlight .m3 {
-        margin-top: 1300px;
+        margin-top: 120vh; /* Adjusted from 1300px */
     }
     .moveit-projects-container-highlight .m4 {
-        margin-top: 350px;
+        margin-top: 30vh; /* Adjusted from 350px */
     }
     .moveItBtn {
-        margin: 10% 0 10% 10%;
+        margin-top: 10vh; /* Adjusted for consistency */
+        margin-bottom: 10vh;
+    }
+    .individual-project-highlight img {
+        bottom: 7vh; /* Slight increase for larger viewports */
     }
 }

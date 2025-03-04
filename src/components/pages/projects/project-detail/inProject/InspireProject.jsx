@@ -52,6 +52,7 @@ const InspireProject = () => {
           />
           </a>
         ))}
+         </div>
 
         {/* Button Section */}
         <div className="button-container inspireBtn">
@@ -63,7 +64,7 @@ const InspireProject = () => {
           >
             Try out this site!
           </a>
-        </div>
+       
       </div>
     </div>
     </div>

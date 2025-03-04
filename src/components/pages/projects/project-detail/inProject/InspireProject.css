@@ -1,11 +1,13 @@
 .inspire .background-container{
-    background-position: 10% 90%;
-    background-blend-mode: lighten;
-    background-color: rgba(255, 255, 255, 0.5); /* Adjust transparency */
+    background-position: 10% 50%;
 }
 
 .projects-highlight {
     width: 100vw;
+}
+
+.projects-container{
+    margin-top: 5vh;
 }
 
 .projects-highlight .portfolio-title-highlight h1{
@@ -23,7 +25,7 @@
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    margin: 25% auto 0 auto;
+    margin: 5% auto 0 auto;
     padding-bottom: 5%;
 }
 
@@ -62,14 +64,25 @@
     height: 5%;
 }
 .i2 {
-    margin-top: 10%;
-}
-.i3 {
-    margin-top: 900px;
-}
-.i4 {
-    margin-top: 30px;
+    margin-top: 0%;
 }
 .inspireBtn{
-    margin-top: 5%;
+    margin-top: -15vh;
+    margin-bottom: 5vh;
+}
+
+@media screen and (min-width: 1500px) {
+    .projects-container{
+        margin-top: 10vh;
+    }
+    .i1 {
+        margin-top: 0vh;
+    }
+    .i2 {
+        margin-top: 0vh;
+    }
+    .inspireBtn{
+        margin-top: -15vh;
+        margin-bottom: 10vh;
+    }
 }

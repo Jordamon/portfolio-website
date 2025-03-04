@@ -61,6 +61,7 @@ const MoveItProject = () => {
           />
           </a>
         ))}
+        </div>
         <div className="button-container moveItBtn">
           <a
             href="https://moveitv2.netlify.app/"
@@ -70,7 +71,6 @@ const MoveItProject = () => {
           >
             Try out this site!
           </a>
-        </div>
       </div>
     </div>
   );

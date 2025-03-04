@@ -2,16 +2,16 @@
     width: 100vw;
 }
 
-.portfolio-title-highlight h1{
-    font-size: 64px;
+.portfolio-title-highlight h1 {
+    font-size: 64px; /* Keep as-is unless it needs scaling */
     position: relative;
     padding-top: 3%;
     padding-left: 3%;
 }
 
-.projects-container-highlight{
+.projects-container-highlight {
     width: 75%;
-    height: 100%;
+    min-height: 100vh; /* Replace height: 100% with min-height for flexibility */
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -19,9 +19,10 @@
     margin: 5% auto 0 auto;
     padding-bottom: 5%;
 }
-.trvlr-projects-container-highlight{
+
+.trvlr-projects-container-highlight {
     width: 75%;
-    height: 1500px;
+    min-height: 100vh; /* Replace height: 1500px with min-height */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -32,7 +33,8 @@
 
 .individual-project-highlight img {
     position: relative;
-    bottom: 100px;
+    bottom: 5vh; /* Replace 100px with viewport-relative unit */
+    width: 100%; /* Ensure images scale with container */
 }
 
 .project-text-highlight {
@@ -41,39 +43,63 @@
     justify-content: center;
     align-items: center;
     width: 70%;
-    height: 100%;
+    min-height: 100%; /* Ensure it adapts to content */
     text-align: center;
 }
 
-.move-it-homepage-img-highlight img{
+.move-it-homepage-img-highlight img {
     width: 100%;
     border-radius: 25px;
     margin: 2%;
     position: relative;
-    right: 10%;
+    right: 10%; /* Percentage is fine here */
 }
 
 .right-project {
     position: relative;
-    left: 10%;
+    left: 10%; /* Percentage is fine */
 }
 
 .t1 {
     margin-top: 0;
 }
+/* Uncomment and adjust if needed */
 /* .t1 img {
     width: 80%;
-    height: 10%;
-} */
+    height: 10vh; /* Use vh instead of % for consistency */
 .t2 {
-    margin-top: 60px;
+    margin-top: 5vh; /* Replace 60px */
 }
 .t3 {
-    margin-top: 60px;
+    margin-top: 5vh; /* Replace 60px */
 }
 .t4 {
-    margin-top: 60px;
+    margin-top: 5vh; /* Replace 60px */
 }
 .trvlrBtn {
-    margin-top: 50px;
+    margin-top: -10vh; /* Replace 50px */
+    margin-bottom: 10vh;
+}
+
+/* Add a media query for larger screens */
+@media screen and (min-width: 1500px) {
+    .portfolio-title-highlight h1 {
+        font-size: 80px; /* Slightly larger for bigger screens */
+    }
+    .t2 {
+        margin-top: 7vh;
+    }
+    .t3 {
+        margin-top: 7vh;
+    }
+    .t4 {
+        margin-top: 7vh;
+    }
+    .trvlrBtn {
+        margin-top: -5vh;
+        margin-bottom: 10vh;
+    }
+    .individual-project-highlight img {
+        bottom: 7vh; /* Adjust positioning for larger viewports */
+    }
 }
