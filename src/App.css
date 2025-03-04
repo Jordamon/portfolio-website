@@ -12,6 +12,7 @@ a {
 .app {
   height: auto;
   width: 100vw;
+  min-width: 320px;
 }
 
 .background-container {

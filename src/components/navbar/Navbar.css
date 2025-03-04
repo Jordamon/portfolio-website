@@ -54,7 +54,7 @@
 }
 }
 /* Media query for screens smaller than 900px */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
     .navbar {
       justify-content: flex-start; /* Adjust alignment for the menu icon */
       -webkit-backdrop-filter: saturate(100% )blur(0px);
