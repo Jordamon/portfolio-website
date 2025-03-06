@@ -135,16 +135,16 @@
         font-size: 36px;
     } 
     .project-text{
-        font-size: 14px;
+        font-size: 16px;
         line-height: 20px; 
     }
 }
 @media screen and (max-width: 700px){
     .project-text h2{
-        font-size: 16px;
+        font-size: 18px;
     } 
     .project-text{
-        font-size: 12px;
+        font-size: 16px;
         line-height: 16px; 
     }
 }
@@ -157,20 +157,20 @@
         min-width: 330px;
     }
     .project-text h2{
-        font-size: 14px;
+        font-size: 18px;
     } 
     .project-text{
-        font-size: 10px;
-        line-height: 12px; 
+        font-size: 16px;
+        line-height: 16px; 
+        width: 100%;
+        height: 100%;
+        margin-top: 0vh;
+        margin-bottom: 10vh;
     }
     .individual-project {
         flex-direction: column;
         height: 100%;
         margin: 3% 3% 10% 3%;
-    }
-    .project-text {
-        width: 100%;
-        height: 100%;
     }
     .left img {
         margin-left: 10%;
