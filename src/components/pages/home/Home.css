@@ -344,11 +344,11 @@ h2 {
         font-size: 12px;
         text-align: center;   
         margin-top: 50px; 
-        height: 325px;
+        height: 350px;
     }
     .profile-container img{
-        height: 180px;
-        width: 130px;
+        height: 200px;
+        width: 150px;
         margin-left: 0;
     }
     .skills{
@@ -356,7 +356,7 @@ h2 {
         margin: 0;
     }
     .lang-card{
-        margin: 10px 0 0 0;
+        margin: 7vh 0 0 0;
     }
     .lang-card .icon {
         font-size: 18px;
@@ -365,6 +365,10 @@ h2 {
         width: 150px;
         height: 60px;
         font-size: 15px;
+        margin-top: 0vh;
+    }
+    .explore-btn{
+        margin-top: 10vh;
     }
 }
 @media screen and (max-width:450px) {
@@ -398,5 +402,25 @@ h2 {
         width: 250px;
         height: 120px;
     }
-
+    .projects-container{
+        width: 90%;
+        margin: 5% 5% 0 5% !important;
+    }
+    .individual-project {
+        height: 300px !important;
+    }
+    .project-text{
+        margin-top: 5% !important;
+    }
+    .left img{
+        margin-top: -1vh !important;
+        width: 105% !important;
+        margin-left: 7% !important;
+    }
+    .reverse img{
+        margin-top: -1vh !important;
+        width: 105% !important;
+        margin-right: 15% !important;
+        margin-left: -3% !important;
+    }
 }
