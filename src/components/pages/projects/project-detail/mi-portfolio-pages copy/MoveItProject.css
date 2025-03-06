@@ -127,6 +127,9 @@
     }
 }
 @media screen and (max-width: 600px) {
+    .projects-highlight .portfolio-title-highlight{
+        width: 85%;
+    }
     .projects-highlight .portfolio-title-highlight h1 {
         font-size: 36px !important;
     }

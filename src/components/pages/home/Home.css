@@ -392,6 +392,7 @@ h2 {
     .col .button-container {
         width: 80%;
     }
+
     .language-card{
         font-size: 12px;
     }
@@ -401,6 +402,7 @@ h2 {
     .lang-card{
         width: 250px;
         height: 120px;
+        margin-top: 5% !important;
     }
     .projects-container{
         width: 90%;
@@ -422,5 +424,8 @@ h2 {
         width: 105% !important;
         margin-right: 15% !important;
         margin-left: -3% !important;
+    }
+    .explore-btn{
+        margin-top: 5vh;
     }
 }

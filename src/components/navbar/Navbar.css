@@ -52,6 +52,9 @@
   width: 400px;
   min-width: 100px;
 }
+.navbar:hover{
+  transform: none;
+}
 }
 /* Media query for screens smaller than 900px */
 @media screen and (max-width: 800px) {
