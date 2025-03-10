@@ -66,6 +66,7 @@
     }
     .individual-project.r1 {
         height: 0% !important;
+        border: solid #494949 1px !important;
     }
     .individual-project.r2 {
         margin-top: 60vh;
