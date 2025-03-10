@@ -34,7 +34,7 @@ const InteriorsProject = () => {
     },
     {
       title: 'Code-Based Styling and Custom Backgrounds',
-      text: 'All visual elements, including the custom background and page styling, were created using pure CSS without relying on external design software, demonstrating the power of in-code design techniques.',
+      text: 'All visual elements, including the custom background and page styling, were created using pure CSS, demonstrating the power of in-code design techniques.',
       imgSrc: interiorsScreenshot4,
       alt: 'Screenshot highlighting custom CSS styling and backgrounds',
       to: 'https://jordamoninteriors.netlify.app/',
