@@ -65,7 +65,7 @@
         height: 100%;
     }
     .individual-project.r1 {
-        height: 0% !important;
+        height: 100% !important;
         border: solid #494949 1px !important;
     }
     .individual-project.r2 {
