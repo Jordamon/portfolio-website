@@ -58,3 +58,29 @@
         margin-bottom: 10vh;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .individual-project.r1 img {
+        width: 75%;
+        height: 100%;
+    }
+    .individual-project.r2 {
+        height: 100% !important;
+    }
+    .individual-project.r2 {
+        margin-top: 30vh;
+        height: 20% !important;
+    }
+    .individual-project.r3 {
+        margin-top: 10vh;
+        height: 100% !important;
+    }
+    .individual-project.r4 {
+        margin-top: 10vh;
+        height: 100% !important;
+    }
+    .rBtn {
+        margin-top: -5vh;
+        margin-bottom: 10vh;
+    }
+}
