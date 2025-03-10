@@ -135,21 +135,18 @@
     }
 }
 
-@media screen and (min-width: 426px)and (max-width: 767px) {
-    .individual-project-highlight .m1 {
-        margin-top: -20vh;
-    }
+@media screen and (min-width: 501px) and (max-width: 767px) {
     
     .moveit-projects-container-highlight .m2 {
-        margin-top: 0vh; /* Replace 1350px with viewport-relative unit */
+        margin-top: 110%; /* Replace 1350px with viewport-relative unit */
     }
     
     .moveit-projects-container-highlight .m3 {
-        margin-top: 0vh; /* Replace 850px */
+        margin-top: 60%; /* Replace 850px */
     }
     
     .moveit-projects-container-highlight .m4 {
-        margin-top: 0vh; /* Replace 120px */
+        margin-top: -5%; /* Replace 120px */
     }
     
     .moveItBtn {
@@ -158,25 +155,26 @@
     }
 };
 
-@media screen and (min-width: 320px) {
-    .individual-project-highlight .m1 {
-        margin-top: -20vh;
+@media screen and (max-width: 500px) {
+    .moveit-projects-container-highlight .m1 {
+        margin-top: 50%;
+        border: 1px solid red !important;
     }
     
     .moveit-projects-container-highlight .m2 {
-        margin-top: -50vh; /* Replace 1350px with viewport-relative unit */
+        margin-top: -20vh;
     }
     
     .moveit-projects-container-highlight .m3 {
-        margin-top: 60vh; /* Replace 850px */
+        margin-top: 40vh;
     }
     
     .moveit-projects-container-highlight .m4 {
-        margin-top: 0vh; /* Replace 120px */
+        margin-top: 5vh;
     }
     
     .moveItBtn {
-        margin-top: -10vh; /* Keep as-is unless spacing needs adjustment */
+        margin-top: -5vh;
         margin-bottom: 5vh;
     }
-};
+}
