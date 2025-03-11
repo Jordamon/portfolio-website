@@ -124,19 +124,25 @@ textarea {
     margin-bottom: 8%;
 } */
 @media screen and (max-width: 1000px){
+    .contact-page{
+        height: 100%;
+    }
     .contact-title h1{
         font-size: 48px;
     } 
     .contact-container {
         flex-direction: column;
         margin: 5% 0;
-    }
-    .contact-container {
         width: 100%;
+        margin-top: 5vh;
+        height: 200%;
     }
     .ways-to-contact{
         width: 100%;
         margin: 5% 5%;
+    }
+    form {
+        height: 80%;
     }
 }
 @media (max-width: 600px) {
@@ -145,5 +151,6 @@ textarea {
     }
     .ways-to-contact{
         width: 90%;
+        font-size: 16px;
     }
 }
