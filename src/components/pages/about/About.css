@@ -85,6 +85,9 @@
 }
 
 @media screen and (min-width: 1800px){
+    .about-container {
+        margin-top: 10vh;
+    }
     .about-container .about-img img {
         height: 600px;
         min-height: 500px;
@@ -106,6 +109,9 @@
 }
 
 @media screen and (max-width: 700px){
+    .about-container .individual-project{
+        height: 300px !important ;
+    }
     .about-container .move-it-homepage-img {
         width: 30% !important;
     }
@@ -117,7 +123,7 @@
         min-width: 150px;
     }
     .about-container .about-img .left img{
-        margin-left: 5vh;
+        margin-left: 2vh;
     }
     .about-container .left .project-text{
         margin-right: 2vh;
