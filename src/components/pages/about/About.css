@@ -151,7 +151,7 @@
         min-width: 150px;
     }
     .about-container .about-img .left img{
-        margin-left: 0 !important;
+        margin-left: -3% !important;
         right: 0;
     }
     .about-container .about-img .reverse img{
