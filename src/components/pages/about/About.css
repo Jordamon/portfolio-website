@@ -135,7 +135,7 @@
     .about-container .individual-project{
         justify-content: center;
         align-items: center;
-        height: 450px !important ;
+        height: 500px !important ;
         margin-left: 0% !important;
     }
     .about-container .move-it-homepage-img {
@@ -147,7 +147,7 @@
         width: 70%;
         height: 60%;
         margin: 100vh 2% 2% 2%;
-        min-height: 180px;
+        min-height: 200px;
         min-width: 150px;
     }
     .about-container .about-img .left img{
