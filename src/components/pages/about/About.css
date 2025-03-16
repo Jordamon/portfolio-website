@@ -132,6 +132,9 @@
     }
 }
 @media screen and (max-width: 500px){
+    .about-container{
+        margin-top: 5vh;
+    }
     .about-container .individual-project{
         justify-content: center;
         align-items: center;
