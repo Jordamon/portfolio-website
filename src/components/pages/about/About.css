@@ -188,6 +188,10 @@
 @media screen and (max-height: 400px) {
     .about-container{
         margin-top: 0vh;
+        width: 100%;
+    }
+    .about-container-projects {
+        width: 100vw;
     }
     .about-container .individual-project{
         height: 250px !important ;
