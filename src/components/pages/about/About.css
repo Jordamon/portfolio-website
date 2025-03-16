@@ -184,3 +184,36 @@
         margin: 0 0 0 0 !important;
     }
 }
+
+@media screen and (max-height: 400px) {
+    .about-container{
+        margin-top: 0vh;
+    }
+    .about-container .individual-project{
+        height: 250px !important ;
+    }
+    .about-container .move-it-homepage-img {
+        width: 30% !important;
+    }
+    .about-container .about-img img{
+        width: 70%;
+        height: 60%;
+        margin: 2%;
+        min-height: 150px;
+        min-width: 150px;
+    }
+    .about-container .about-img .left img{
+        left: 10%;
+    }
+    .about-container .left .project-text{
+        margin-right: 2vh;
+    }
+    .about-container .reverse img{
+        right: -10%;
+    }
+    .about-container .project-text {
+        height: 100%;
+        width: 60%;
+        font-size: 16px;
+    }
+}
