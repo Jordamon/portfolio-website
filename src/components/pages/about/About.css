@@ -3,6 +3,8 @@
     width: 100%;
     height: auto;
     margin-top: 0;
+    display: flex;
+    justify-content: center;
 }
 
 .about-container-projects {
