@@ -55,6 +55,9 @@
 .navbar:hover{
   transform: none;
 }
+.listItem:hover {
+  transform: none;
+}
 }
 /* Media query for screens smaller than 900px */
 @media screen and (max-width: 800px) {
