@@ -41,6 +41,10 @@
     font-size: 24px;
     color: white;
     cursor: pointer;
+      position: absolute; /* Change from fixed */
+      right: 20px; /* Adjust as needed */
+      top: 10px; /* Adjust spacing */
+      font-size: 50px;
   }
 
 /* Media query for screens smaller than 1000px */
