@@ -179,8 +179,11 @@
         margin-left: 0%;
     }
 }
-@media screen and (max-width: 600px) and (max-height: 400px){
-    .projects-container{
+@media screen and (max-width: 600px) and (orientation: landscape) {
+    .projects-container {
         margin-top: 50px;
+    }
+    .individual-project {
+        margin-bottom: 10%;
     }
 }
