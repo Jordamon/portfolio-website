@@ -117,5 +117,6 @@
       right: 0;
       width: auto;
       text-align: left;
+      z-index: 10;
     }
   }
