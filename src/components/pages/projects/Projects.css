@@ -108,6 +108,21 @@
     position: relative;
 }
 
+@media screen and (min-width: 1700px){
+    .background-container-projects {
+        height: 3350px;
+    }
+    .move-it-homepage-img img{
+        min-height: 450px;
+        min-width: 300px;
+    }
+    .individual-project{
+        margin: 3% 3% 3% 3%;
+    }
+    .projects-container{
+        margin-top: 2vh !important;
+    }
+}
 @media screen and (min-width: 1500px){
     .background-container-projects {
         height: 3350px;
