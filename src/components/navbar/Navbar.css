@@ -61,6 +61,19 @@
 .listItem:hover {
   transform: none;
 }
+.navbarList {
+  display: none;
+  flex-direction: column;
+  background-color: #494949;
+  position: fixed; /* Keep it fixed so it doesn't move */
+  top: 60px;
+  right: 0;
+  width: 100%; /* Ensure it stays in place */
+  max-width: 300px; /* Adjust width to fit content */
+  padding: 10px;
+  text-align: left;
+  z-index: 10;
+}
 }
 /* Media query for screens smaller than 900px */
 @media screen and (max-width: 800px) {
