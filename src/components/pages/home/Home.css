@@ -459,6 +459,9 @@ h2 {
     .col .button-container {
         width: 80%;
     }
+    .languages{
+        margin-top: -5vh;
+    }
 
     .language-card{
         font-size: 12px;
