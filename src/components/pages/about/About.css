@@ -90,8 +90,12 @@
     }
     .about-container .about-img img {
         height: 600px;
-        min-height: 500px;
+        max-height: 500px;
         min-width: 500px;
+    }
+    .about-container .individual-project{
+        max-height: 300px;
+        margin: 3% 3% 10% 3%;
     }
 }
 @media screen and (min-width: 1500px){

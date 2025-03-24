@@ -45,16 +45,16 @@
 
 @media screen and (min-width: 1500px) {
     .individual-project.r2 {
-        margin-top: 110vh;
+        margin-top: 113vh;
     }
     .individual-project.r3 {
-        margin-top: 10vh;
+        margin-top: 20vh;
     }
     .individual-project.r4 {
-        margin-top: 10vh;
+        margin-top: 20vh;
     }
     .rBtn {
-        margin-top: -5vh;
+        margin-top: 0vh;
         margin-bottom: 10vh;
     }
 }
