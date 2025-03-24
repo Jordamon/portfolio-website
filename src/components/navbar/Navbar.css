@@ -106,3 +106,16 @@
         font-size: 50px;
     }
   }
+
+  @media screen and (max-width: 900px) and (orientation: landscape) {
+    .navbarList {
+      display: none;
+      flex-direction: column; /* Stack menu items vertically */
+      background-color: #494949;
+      position: absolute;
+      top: 60px; /* Adjust this value based on your design */
+      right: 0;
+      width: auto;
+      text-align: left;
+    }
+  }
