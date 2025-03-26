@@ -57,7 +57,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 40vh;
+    height: 42vh;
     border: solid #494949 1px;
     cursor: pointer;
 }
