@@ -111,7 +111,7 @@
         font-size: 48px;
     } 
 }
-@media screen and (max-width: 1250px) and (orientation: landscape){
+@media screen and (min-width: 850px) and (max-width: 1250px) and (orientation: landscape){
     .projects-container{
         width: 100%;
     }
