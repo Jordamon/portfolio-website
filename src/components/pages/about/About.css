@@ -111,6 +111,15 @@
         font-size: 48px;
     } 
 }
+@media screen and (max-width: 1250px) and (orientation: landscape){
+    .projects-container{
+        width: 100%;
+    }
+    .about-container .about-img img{
+        margin: 2% 10% 2% 2%;
+        left: -5% !important;
+    }
+}
 
 @media screen and (max-width: 700px){
     .about-container .individual-project{
