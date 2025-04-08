@@ -44,7 +44,7 @@ const Contact = () => {
         name: formData.name,
         email: formData.email,
         phone: formData.phone,
-        message: formData.message
+        message: formData.message,
       },
       process.env.REACT_APP_EMAILJS_USER_ID
     )
