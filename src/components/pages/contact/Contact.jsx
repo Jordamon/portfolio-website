@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import './Contact.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone, faEnvelope} from '@fortawesome/free-solid-svg-icons';
-import {faWhatsapp, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faWhatsapp, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -36,7 +36,12 @@ const Contact = () => {
       setIsSubmitting(false);
       return;
     }
-  
+
+    // Add console logs here to check environment variables
+    console.log('EmailJS Service ID:', process.env.REACT_APP_EMAILJS_SERVICE_ID);
+    console.log('EmailJS Template ID:', process.env.REACT_APP_EMAILJS_TEMPLATE_ID);
+    console.log('EmailJS User ID:', process.env.REACT_APP_EMAILJS_USER_ID);
+
     emailjs.send(
       process.env.REACT_APP_EMAILJS_SERVICE_ID,
       process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
