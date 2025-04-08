@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import emailjs from 'emailjs-com';
 import { motion } from 'framer-motion';
 import './Contact.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -23,28 +24,42 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setIsSubmitting(true);
-
-    // Email validation
+  
     if (!formData.email.includes('@')) {
       alert('Please enter a valid email address.');
       setIsSubmitting(false);
       return;
     }
-
-    // Phone number validation
+  
     if (!/^\d+$/.test(formData.phone)) {
       alert('Please enter a valid phone number.');
       setIsSubmitting(false);
       return;
     }
-
-    // Simulate API call
-    setTimeout(() => {
-      console.log(formData);
-      setIsSubmitting(false);
-      alert('Message sent successfully!');
-      setFormData({ name: '', email: '', phone: '', message: '' });
-    }, 2000);
+  
+    emailjs.send(
+      process.env.REACT_APP_EMAILJS_SERVICE_ID,
+      process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+      {
+        name: formData.name,
+        email: formData.email,
+        phone: formData.phone,
+        message: formData.message
+      },
+      process.env.REACT_APP_EMAILJS_USER_ID
+    )
+    .then(
+      () => {
+        alert('Message sent successfully!');
+        setFormData({ name: '', email: '', phone: '', message: '' });
+        setIsSubmitting(false);
+      },
+      (error) => {
+        alert('Failed to send the message. Please try again later.');
+        console.error(error);
+        setIsSubmitting(false);
+      }
+    );
   };
 
   return (
