@@ -199,6 +199,18 @@
         margin-top: 50px !important;
     }
     .individual-project {
-        margin-bottom: 20%;
+        margin-bottom: 10%;
     }
+    .projects-container .move-it-homepage-img img{
+        width: 80% !important;
+        max-height: 100px !important;
+        min-height: 200px !important;
+    }
+    .projects-container .reverse img {
+        margin-left: 5% !important;
+    }  
+    .projects-container .project-text {
+        margin-top: 0% !important;
+    }  
 }
+ 
