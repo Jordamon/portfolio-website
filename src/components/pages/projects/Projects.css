@@ -212,5 +212,8 @@
     .projects-container .project-text {
         margin-top: 0% !important;
     }  
+    .project-text{
+        width: 100%;
+    }
 }
  
