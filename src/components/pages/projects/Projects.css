@@ -220,5 +220,8 @@
     .left img{
         right: 0;
     }
+    .right img{
+        margin-left: 30px !important;
+    }
 }
  
