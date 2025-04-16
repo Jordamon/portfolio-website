@@ -214,6 +214,7 @@
         margin-top: 0% !important;
     }  
     .project-text{
+        min-width: 250px;
         border: solid 1px blue;
     }
 }
