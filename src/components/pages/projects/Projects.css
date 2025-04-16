@@ -200,7 +200,7 @@
     }
     .individual-project {
         margin-bottom: 10%;
-        border: solid 1px red;
+        justify-content: space-evenly;
     }
     .projects-container .move-it-homepage-img img{
         width: 80% !important;
@@ -215,7 +215,6 @@
     }  
     .project-text{
         min-width: 250px;
-        border: solid 1px blue;
         margin-left: 0;
         margin-right: 0;
     }
