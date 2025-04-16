@@ -194,12 +194,13 @@
         margin-left: 0%;
     }
 }
-@media screen and (max-width: 900px) and (orientation: landscape) {
+@media screen and (max-width: 800px) and (orientation: landscape) {
     .projects-container {
         margin-top: 50px !important;
     }
     .individual-project {
         margin-bottom: 10%;
+        border: solid 1px red;
     }
     .projects-container .move-it-homepage-img img{
         width: 80% !important;
@@ -214,6 +215,7 @@
     }  
     .project-text{
         width: 100%;
+        border: solid 1px blue;
     }
 }
  
