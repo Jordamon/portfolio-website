@@ -222,5 +222,8 @@
     .left img{
         right: 0;
     }
+    .left img{
+        left: 0;
+    }
 }
  
