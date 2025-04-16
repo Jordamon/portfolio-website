@@ -219,5 +219,8 @@
         margin-left: 0;
         margin-right: 0;
     }
+    .left img{
+        right: 0;
+    }
 }
  
