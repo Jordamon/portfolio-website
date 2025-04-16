@@ -221,7 +221,7 @@
         right: 0;
     }
     .right img{
-        left: 80px;
+        left: 30px !important;
     }
 }
  
