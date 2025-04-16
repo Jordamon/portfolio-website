@@ -215,8 +215,7 @@
     }  
     .project-text{
         min-width: 250px;
-        margin-left: 0;
-        margin-right: 0;
+        margin: 2%;
     }
     .left img{
         right: 0;
