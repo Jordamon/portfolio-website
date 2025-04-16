@@ -200,6 +200,7 @@
     }
     .individual-project {
         margin-bottom: 10%;
+        min-height: 200px;
     }
     .projects-container .move-it-homepage-img img{
         width: 80% !important;
