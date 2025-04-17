@@ -13,8 +13,10 @@ const sidebar = () => {
           </a>        
           </div>
         <div className="icon icon-wiggle">
-          <FontAwesomeIcon icon={faEnvelope} className='icon'/>
-          </div>        
+          <a href="mailto:jordanhuntwebdev@gmail.com">
+            <FontAwesomeIcon icon={faEnvelope} className='icon' />
+          </a>
+        </div>        
         <div className="icon icon-wiggle">
         <a href="https://www.instagram.com/jordamon_/" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faInstagram} />
