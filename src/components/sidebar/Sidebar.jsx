@@ -1,6 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faWhatsapp, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope} from '@fortawesome/free-solid-svg-icons';
 import './Sidebar.css';
 
 const sidebar = () => {
