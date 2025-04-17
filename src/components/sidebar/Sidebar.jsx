@@ -13,9 +13,9 @@ const sidebar = () => {
             <FontAwesomeIcon icon={faGithub} />
           </a>        
           </div>
-        <div className="icon icon-wiggle">
+        <div className="icon email icon-wiggle">
           <a href="mailto:jordanhuntwebdev@gmail.com">
-            <FontAwesomeIcon icon={faEnvelope} />
+            <FontAwesomeIcon icon={faEnvelope}/>
           </a>
         </div>        
         <div className="icon icon-wiggle">
