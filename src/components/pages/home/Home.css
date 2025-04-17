@@ -58,7 +58,7 @@
     width: 100%;
     border-radius: 100px;
     filter: saturate(90%);
-    filter: brightness(130%) contrast(90%) saturate(70%);
+    filter: brightness(130%) contrast(90%) saturate(85%);
     margin-left: 15%;
     height: 300px;
 }
