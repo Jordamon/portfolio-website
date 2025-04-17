@@ -3,8 +3,8 @@ import emailjs from 'emailjs-com';
 import { motion } from 'framer-motion';
 import './Contact.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPhone, faEnvelope} from '@fortawesome/free-solid-svg-icons';
-import { faWhatsapp, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope} from '@fortawesome/free-solid-svg-icons';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
