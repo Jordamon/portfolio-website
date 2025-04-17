@@ -129,12 +129,12 @@ const Contact = () => {
           <div className="ways-to-contact frosted-container">
             <h3>Fill out the form or use one of the methods of contact below:</h3><br></br>
             <div className="alt-contact-container">
-              <a href="https://www.instagram.com/jordamon_/" target="_blank" rel="noopener noreferrer">
-                          <FontAwesomeIcon icon={faInstagram} className='icon small'/>  <h4>https://www.instagram.com/jordamon_/</h4></a>  
+              <FontAwesomeIcon icon={faEnvelope} className='icon'/>  <h4>jordanhuntwebdev@gmail.com</h4>
             </div>
             <br/>
             <div className="alt-contact-container">
-              <FontAwesomeIcon icon={faEnvelope} className='icon'/>  <h4>jordanhuntwebdev@gmail.com</h4>
+              <a href="https://www.instagram.com/jordamon_/" target="_blank" rel="noopener noreferrer">
+                          <FontAwesomeIcon icon={faInstagram} className='icon small'/>  <h4>https://www.instagram.com/jordamon_/</h4></a>  
             </div>
           </div>
           </div>
