@@ -95,7 +95,7 @@
   .navbar-toggle {
       display: block;
       position: fixed;
-      right: 0; /* Keep it consistent with the default */
+      right: 20px; /* Keep it consistent with the default */
       top: 10px; /* Keep it consistent with the default */
       font-size: 50px;
   }
