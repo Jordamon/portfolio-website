@@ -1,91 +1,66 @@
-.navbar{
-    width: 35vw;
-    max-width: 500px;
-    min-width: 470px;
-    height: 15vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    position: absolute;
-    right: 0;
-    z-index: 1;
-    background-color: rgba(0,0,0,0);
-    transform: scale(1);
-    -webkit-backdrop-filter: saturate(100% )blur(5px);
-    backdrop-filter: saturate(100% )blur(5px);
-    border-radius: 50px;
+.navbar {
+  width: 35vw;
+  max-width: 500px;
+  min-width: 470px;
+  height: 15vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0);
+  transform: scale(1);
+  -webkit-backdrop-filter: saturate(100%) blur(5px);
+  backdrop-filter: saturate(100%) blur(5px);
+  border-radius: 50px;
 }
-.navbar:hover{
+
+.navbar:hover {
   transform: scale(1.075);
 }
-.navbarList{
-    margin-right: 20px;
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-}
-.listItem{
-    margin-right: 30px;
-    font-size: 25px;
-    cursor: pointer;
 
+.navbarList {
+  margin-right: 20px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
 }
+
+.listItem {
+  margin-right: 30px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
 .listItem:hover {
-    background-color: #494949; 
-    color: #fff; 
-    transform: scale(1.1);
+  background-color: #494949;
+  color: #fff;
+  transform: scale(1.1);
 }
-  .navbar-toggle {
-    display: none; /* Initially hidden */
-    font-size: 24px;
-    color: white;
-    cursor: pointer;
-      position: absolute; /* Change from fixed */
-      right: 20px; /* Adjust as needed */
-      top: 10px; /* Adjust spacing */
-  }
+
+.navbar-toggle {
+  display: none; /* Initially hidden */
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+  position: absolute; /* Keep it absolute */
+  right: 20px; /* Adjust as needed */
+  top: 10px; /* Adjust spacing */
+}
 
 /* Media query for screens smaller than 1000px */
 @media screen and (max-width: 1000px) {
-  .listItem{
-    margin-right: 10px;
-}
-.navbar {
-  width: 400px;
-  min-width: 100px;
-}
-.navbar:hover{
-  transform: none;
-}
-.listItem:hover {
-  transform: none;
-}
-.navbarList {
-  display: none;
-  flex-direction: column;
-  background-color: #494949;
-  position: fixed; /* Keep it fixed so it doesn't move */
-  top: 60px;
-  right: 0;
-  width: 100%; /* Ensure it stays in place */
-  max-width: 300px; /* Adjust width to fit content */
-  padding: 10px;
-  text-align: left;
-  z-index: 10;
-}
-}
-/* Media query for screens smaller than 900px */
-@media screen and (max-width: 1000px) {
-    .navbar {
+  .navbar {
       justify-content: flex-start; /* Adjust alignment for the menu icon */
-      -webkit-backdrop-filter: saturate(100% )blur(0px);
-      backdrop-filter: saturate(100% )blur(0px);
+      -webkit-backdrop-filter: saturate(100%) blur(0px);
+      backdrop-filter: saturate(100%) blur(0px);
       z-index: 10;
-    }
-  
-    /* Hide the menu by default on smaller screens */
-    .navbarList {
+  }
+
+  /* Hide the menu by default on smaller screens */
+  .navbarList {
       display: none;
       flex-direction: column; /* Stack menu items vertically */
       background-color: #494949;
@@ -94,28 +69,30 @@
       right: 0;
       width: auto;
       text-align: left;
-    }
-  
-    .navbarList.show {
+  }
+
+  .navbarList.show {
       display: flex; /* Display the menu when it's toggled */
-    }
-  
-    .listItem {
+  }
+
+  .listItem {
       padding: 15px;
       font-size: 18px; /* Adjust the font size for smaller screens */
       cursor: pointer;
       color: #f9f9f9;
-    }
-  
-    /* Add a hover effect for smaller screen menu items */
-    .listItem:hover {
-      background-color: #494949;
-    }
-    .navbar-toggle{
-        display: block;
-        position: fixed;
-        right: 5%;
-        top: 0%;
-        font-size: 50px;
-    }
   }
+
+  /* Add a hover effect for smaller screen menu items */
+  .listItem:hover {
+      background-color: #494949;
+  }
+
+  /* Hamburger icon should be fixed at top-right of the screen */
+  .navbar-toggle {
+      display: block;
+      position: fixed;
+      right: 20px; /* Keep it consistent with the default */
+      top: 10px; /* Keep it consistent with the default */
+      font-size: 50px;
+  }
+}
