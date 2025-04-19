@@ -59,6 +59,10 @@
       z-index: 10;
   }
 
+  .navbar:hover {
+    transform: none;
+  }
+
   /* Hide the menu by default on smaller screens */
   .navbarList {
       display: none;
