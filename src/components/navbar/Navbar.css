@@ -11,14 +11,16 @@
   top: 0; /* Ensure it stays at the top of the page */
   right: 0;
   z-index: 1;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0); /* No background color by default */
   -webkit-backdrop-filter: saturate(100%) blur(5px);
   backdrop-filter: saturate(100%) blur(5px);
   border-radius: 50px;
+  transition: backdrop-filter 0.3s ease-in-out; /* Smooth transition */
 }
 
 .navbar:hover {
   background-color: rgba(0, 0, 0, 0.1); /* Optional hover effect */
+  backdrop-filter: saturate(100%) blur(5px); /* Reapply only on hover */
 }
 
 .navbarList {
@@ -54,13 +56,12 @@
 @media screen and (max-width: 1000px) {
   .navbar {
     justify-content: flex-start; /* Adjust alignment for the menu icon */
-    -webkit-backdrop-filter: saturate(100%) blur(0px);
-    backdrop-filter: saturate(100%) blur(0px);
     z-index: 10;
   }
 
   .navbar:hover {
     background-color: rgba(0, 0, 0, 0.1); /* Optional hover effect */
+    backdrop-filter: none; /* Remove the backdrop effect when menu is open */
   }
 
   /* Hide the menu by default on smaller screens */
@@ -73,6 +74,7 @@
     right: 0;
     width: auto;
     text-align: left;
+    transition: background-color 0.3s ease-in-out; /* Smooth transition */
   }
 
   .navbarList.show {
