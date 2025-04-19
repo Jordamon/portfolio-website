@@ -53,17 +53,11 @@
 /* Media query for screens smaller than 1000px */
 @media screen and (max-width: 1000px) {
   .navbar {
-    position: fixed; /* CHANGE from absolute to fixed */
-    top: 0;
-    right: 0;
-    left: 0;
-    width: 100%;
-    height: 60px;
-    justify-content: flex-end;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.8); /* optional: for visibility */
-    z-index: 1000;
-    border-radius: 0; /* optional: less rounding on mobile */
+      justify-content: flex-start; /* Adjust alignment for the menu icon */
+      -webkit-backdrop-filter: saturate(100%) blur(0px);
+      backdrop-filter: saturate(100%) blur(0px);
+      z-index: 10;
+      position: fixed;
   }
 
   .navbar:hover {
