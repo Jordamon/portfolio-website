@@ -7,18 +7,18 @@
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  position: absolute;
+  position: absolute; /* Keeps navbar's position relative to the page */
+  top: 0; /* Ensure it stays at the top of the page */
   right: 0;
   z-index: 1;
   background-color: rgba(0, 0, 0, 0);
-  transform: scale(1);
   -webkit-backdrop-filter: saturate(100%) blur(5px);
   backdrop-filter: saturate(100%) blur(5px);
   border-radius: 50px;
 }
 
 .navbar:hover {
-  transform: scale(1.075);
+  background-color: rgba(0, 0, 0, 0.1); /* Optional hover effect */
 }
 
 .navbarList {
@@ -37,7 +37,6 @@
 .listItem:hover {
   background-color: #494949;
   color: #fff;
-  transform: scale(1.1);
 }
 
 .navbar-toggle {
@@ -45,59 +44,60 @@
   font-size: 24px;
   color: white;
   cursor: pointer;
-  position: absolute; /* Keep it absolute */
+  position: absolute; /* Keeps it inside the navbar container */
+  top: 10px; /* Adjust the distance from the top of the navbar */
   right: 20px; /* Adjust as needed */
-  top: 10px; /* Adjust spacing */
+  z-index: 1001; /* Ensure the icon stays above the menu */
 }
 
 /* Media query for screens smaller than 1000px */
 @media screen and (max-width: 1000px) {
   .navbar {
-      justify-content: flex-start; /* Adjust alignment for the menu icon */
-      -webkit-backdrop-filter: saturate(100%) blur(0px);
-      backdrop-filter: saturate(100%) blur(0px);
-      z-index: 10;
-      position: fixed;
+    justify-content: flex-start; /* Adjust alignment for the menu icon */
+    -webkit-backdrop-filter: saturate(100%) blur(0px);
+    backdrop-filter: saturate(100%) blur(0px);
+    z-index: 10;
   }
 
   .navbar:hover {
-    transform: none;
+    background-color: rgba(0, 0, 0, 0.1); /* Optional hover effect */
   }
 
   /* Hide the menu by default on smaller screens */
   .navbarList {
-      display: none;
-      flex-direction: column; /* Stack menu items vertically */
-      background-color: #494949;
-      position: absolute;
-      top: 60px; /* Adjust this value based on your design */
-      right: 0;
-      width: auto;
-      text-align: left;
+    display: none;
+    flex-direction: column; /* Stack menu items vertically */
+    background-color: #494949;
+    position: absolute;
+    top: 60px; /* Adjust this value based on your design */
+    right: 0;
+    width: auto;
+    text-align: left;
   }
 
   .navbarList.show {
-      display: flex; /* Display the menu when it's toggled */
+    display: flex; /* Display the menu when it's toggled */
   }
 
   .listItem {
-      padding: 15px;
-      font-size: 18px; /* Adjust the font size for smaller screens */
-      cursor: pointer;
-      color: #f9f9f9;
+    padding: 15px;
+    font-size: 18px; /* Adjust the font size for smaller screens */
+    cursor: pointer;
+    color: #f9f9f9;
   }
 
   /* Add a hover effect for smaller screen menu items */
   .listItem:hover {
-      background-color: #494949;
+    background-color: #494949;
   }
 
-  /* Hamburger icon should be fixed at top-right of the screen */
+  /* Hamburger icon should stay within the normal page flow */
   .navbar-toggle {
-      display: block;
-      position: fixed;
-      right: 20px; /* Keep it consistent with the default */
-      top: 10px; /* Keep it consistent with the default */
-      font-size: 50px;
+    display: block;
+    position: absolute; /* Keeps it in the navbar's flow */
+    top: 10px; /* Adjust the spacing from the top */
+    right: 20px; /* Keeps it to the right */
+    font-size: 50px;
+    z-index: 1001; /* Make sure it stays above the menu */
   }
 }
