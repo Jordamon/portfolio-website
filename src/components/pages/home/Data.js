@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { 
-  faHtml5, faCss3Alt, faSquareJs, faNodeJs, faPython, 
-  faGithub, faReact, faAngular, faVuejs, faPhp 
+  faHtml5, faCss3Alt, faSquareJs, faPython, 
+  faGithub, faReact, faAngular, faVuejs, faPhp,faWordpress 
 } from '@fortawesome/free-brands-svg-icons';
 import { faServer, faDatabase } from '@fortawesome/free-solid-svg-icons';
 
@@ -27,9 +27,9 @@ export const coreLanguages = [
 // Other Languages
 export const otherLanguages = [
   { 
-    name: 'Node.js', 
-    icon: <FontAwesomeIcon icon={faNodeJs} />,
-    description: 'JavaScript runtime for backend development' 
+    name: 'Wordpress', 
+    icon: <FontAwesomeIcon icon={faWordpress} />,
+    description: 'Content management system for building and managing websites' 
   },
   { 
     name: 'SQL', 
