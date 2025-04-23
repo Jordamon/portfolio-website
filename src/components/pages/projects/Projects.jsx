@@ -40,7 +40,7 @@ const projectData = [
     title: 'Interior Design Showcase Website',
     imgSrc: interiorHomepage,
     to: '/interiors',
-    text: 'A portfolio site for an interior design firm, highlighting projects and offering easy contact functionality.',
+    text: 'A portfolio site for an interior design firm, highlighting projects and offering easy contact functionality. Laptop screen size only.',
     alt: 'Screenshot of Interior Design homepage',
   }
 ];
