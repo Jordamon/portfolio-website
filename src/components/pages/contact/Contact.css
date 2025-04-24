@@ -128,7 +128,7 @@ textarea {
         height: 100%;
     }
     .contact-title h1{
-        font-size: 48px;
+        font-size: 40px;
     } 
     .contact-container {
         flex-direction: column;

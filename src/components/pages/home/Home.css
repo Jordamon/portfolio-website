@@ -7,8 +7,8 @@
 }
 .intro-text h1{
     position: relative;
-    padding-top: 3%;
-    left: 3%;
+    padding-top: 1%;
+    left: 2%;
     width: 100%;
     font-size: 64px;
     color: #494949;
@@ -17,6 +17,8 @@
 .intro-text h2 {
     font-weight: 200;
     font-size: 32px;
+    position: relative;
+    left: 2%;
 }
 .profile-container{
     width: 60%;
@@ -25,7 +27,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin: 2% 0;
+    margin: 4% 0;
 }
 .profile-container:hover {
     transform: scale(1.05) !important;
@@ -283,9 +285,10 @@ h2 {
 @media screen and (max-width:1100px) {
     .intro-text h1{
         font-size: 55px;
+        width: 80%;
     }
     .intro-text h2{
-        margin: 5px 0 0 30px;
+        margin: 5px 0 0 0;
         font-size: 33px;
         line-height: 40px;
     }
@@ -295,7 +298,7 @@ h2 {
         align-items: center;
         font-size: 12px;
         text-align: center;   
-        margin-top: 80px; 
+        margin: 4% 0;
         height: auto;
         width: 80%;
     }
@@ -326,11 +329,11 @@ h2 {
 }
 @media screen and (max-width:450px) {
     .intro-text h1{
-        font-size: 30px;
+        font-size: 40px;
         text-align: left;
     }
     .intro-text h2{
-        margin: 5px 10% 0 10px;
+        margin: 5px 10% 0 0;
         font-size: 20px;
         line-height: 20px;
     }

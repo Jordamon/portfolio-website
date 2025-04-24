@@ -108,7 +108,7 @@
 }
 @media screen and (max-width: 1250px){
     .about-title h1{
-        font-size: 48px;
+        font-size: 40px;
     } 
     .about-container .individual-project{
         height: 300px !important ;
