@@ -19,7 +19,8 @@
     position: relative;
     padding-top: 2%;
     left: 3%;
-    width: 100%;
+    width: 80%;
+
     font-size: 64px;
     color: #494949;
 }
@@ -147,7 +148,7 @@
         min-width: 300px;
     }
     .portfolio-title h1{
-        font-size: 36px;
+        font-size: 48px;
     } 
     .project-text{
         font-size: 16px;

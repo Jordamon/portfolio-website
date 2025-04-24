@@ -11,8 +11,6 @@
   right: 0;
   z-index: 1;
   background-color: rgba(0, 0, 0, 0);
-  transform: scale(1);
-  -webkit-backdrop-filter: saturate(100%) blur(5px);
   backdrop-filter: saturate(100%) blur(5px);
   border-radius: 50px;
 }
@@ -42,12 +40,12 @@
 
 .navbar-toggle {
   display: none; /* Initially hidden */
-  font-size: 24px;
+  font-size: 50px;
   color: white;
   cursor: pointer;
   position: absolute; /* Keep it absolute */
-  right: 20px; /* Adjust as needed */
-  top: 10px; /* Adjust spacing */
+  right: 15px; /* Adjust as needed */
+  top: 5px; /* Adjust spacing */
 }
 
 /* Media query for screens smaller than 1000px */
@@ -94,9 +92,5 @@
   /* Hamburger icon should be fixed at top-right of the screen */
   .navbar-toggle {
       display: block;
-      position: absolute;
-      right: 20px; /* Keep it consistent with the default */
-      top: 10px; /* Keep it consistent with the default */
-      font-size: 50px;
   }
 }
