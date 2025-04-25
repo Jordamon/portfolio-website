@@ -85,6 +85,9 @@
     font-size: 18px;
     line-height: 26px; 
 }
+.project-text h2 {
+    margin-bottom: 3%;
+}
 
 .move-it-homepage-img img{
     width: 50vw;

@@ -36,7 +36,7 @@ const About = () => {
     },
     {
       title:"DIY Adventures",
-      text:"More recently I have spent a lot of time learning DIY skills and undertook an exciting (if not a bit scary) renovation project. This project has given me an even greater affinity for fixing and problem-solving. It really tested my limits—sometimes learning the easy way, sometimes the hard way. (FYI: just because a floorboard has a hole where a screw used to be, doesn't mean there definitely isn't a water pipe there now. If you drill into it, you may have a new water feature in your freshly decorated room!)",
+      text:"Recently I have spent some time learning DIY skills and undertook an exciting (but scary) renovation project. This project has given me an even greater affinity for fixing and problem-solving. It really tested my limits—sometimes learning the easy way, sometimes the hard way. (FYI: just because a floorboard has a hole where a screw used to be, doesn't mean there definitely isn't a water pipe there now. If you drill into it, you may have a new water feature in your freshly decorated room!)",
       imgSrc:require('../../../images/me/me6.webp'),
       altText:"me",
       reverse: true,
