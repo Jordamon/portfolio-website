@@ -8,7 +8,7 @@
 .intro-text h1{
     position: relative;
     padding-top: 1%;
-    left: 3%;
+    left: 5%;
     width: 100%;
     font-size: 64px;
     color: #494949;
@@ -18,7 +18,7 @@
     font-weight: 200;
     font-size: 32px;
     position: relative;
-    left: 3%;
+    left: 5%;
 }
 .profile-container{
     width: 80%;
