@@ -336,11 +336,13 @@ h2 {
     .intro-text h1{
         font-size: 40px;
         text-align: left;
+        left: 3%;
     }
     .intro-text h2{
         margin: 5px 10% 0 0;
         font-size: 20px;
         line-height: 20px;
+        left: 3%;
     }
     h3{
         font-size: 15px;
