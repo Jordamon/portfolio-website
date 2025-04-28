@@ -30,7 +30,7 @@ const About = () => {
     },
     {
       title:"My World",
-      text:"Outside of web development, I enjoy life by leading an active lifestyle, training in Brazilian Jiu Jitsu where I have achieved a silver medal at a European championship. Travel is another interest of mine, and in 2022, my girlfriend and I were blessed to travel Central and South America for over 100 days. During our journey, we visited salt flats, expeditioned into the Amazon rainforest, climbed Rainbow Mountain, and surfed three different oceans. A truly inspirational experience.",
+      text:"I enjoy life by leading an active lifestyle, training in Brazilian Jiu Jitsu where I have achieved a silver medal at a European championship. Travel is another interest of mine, and in 2022, my girlfriend and I were blessed to travel Central and South America for over 100 days. During our journey, we visited salt flats, expeditioned into the Amazon rainforest, climbed Rainbow Mountain, and surfed three different oceans. A truly inspirational experience.",
       imgSrc: require('../../../images/me/me5.webp'),
       altText:"me",
     },
@@ -57,7 +57,7 @@ const About = () => {
             text={project.text}
             imgSrc={project.imgSrc}
             altText={project.altText}
-            className={`individual-project a${index + 1}`}
+            className={`individual-about a${index + 1}`}
             reverse={index % 2 !== 0}
           />
         ))
