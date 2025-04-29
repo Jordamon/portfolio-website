@@ -81,7 +81,7 @@ const InteriorsProject = () => {
             rel="noopener noreferrer"
             className="explore-btn btn"
           >
-            Try out this site!
+            Try out this site! (laptop screen size only)
           </a>
         
       </div>
