@@ -11,9 +11,14 @@ a {
 
 .app {
   height: auto;
-  width: 100vw;
+  width: 100%;
   min-width: 320px;
 }
+
+body {
+  overflow-x: hidden;
+}
+
 
 .background-container {
   position: fixed;
