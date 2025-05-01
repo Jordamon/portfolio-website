@@ -10,6 +10,7 @@ const ProjectCard = ({ title, imgSrc, to, text, alt, className, reverse }) => {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
       viewport={{ once: true }}
+      classname="motion-div"
     >
       <div className={`moveit individual-project individual-item ${reverse ? 'reverse' : 'left'} ${className}`}>
         <div className="move-it-homepage-img">

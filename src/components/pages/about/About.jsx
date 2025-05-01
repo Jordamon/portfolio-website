@@ -5,8 +5,8 @@ import ProjectCard from '../projects/projectCard';
 const About = () => {
   const aboutData = [
     {
-      title:"Intro",
-      text:"I'm a web developer with two years of experience, including a year of freelance work creating websites for small businesses. I specialize in front-end development using HTML, CSS, JavaScript, and React, and have foundational knowledge of SQL and Python. Having completed front-end courses on Mimo and Codecademy, I am eager to expand my expertise and contribute to impactful projects within a dynamic team.",
+      title:"Introduction",
+      text:"I'm a web developer with  and a half years of experience, including a year of freelance work creating websites for small businesses. I specialize in front-end development using HTML, CSS, JavaScript, and React, and have foundational knowledge of SQL and Python. Having completed front-end courses on Mimo and Codecademy, I am eager to expand my expertise and contribute to impactful projects within a dynamic team.",
       imgSrc:require('../../../images/me/me4.JPG'),
       altText:"me",
     },
@@ -30,13 +30,13 @@ const About = () => {
     },
     {
       title:"My World",
-      text:"I enjoy life by leading an active lifestyle, training in Brazilian Jiu Jitsu where I have achieved a silver medal at a European championship. Travel is another interest of mine, and in 2022, my girlfriend and I were blessed to travel Central and South America for over 100 days. During our journey, we visited salt flats, expeditioned into the Amazon rainforest, climbed Rainbow Mountain, and surfed three different oceans. A truly inspirational experience.",
+      text:"I enjoy life by leading an active lifestyle, training in Brazilian Jiu Jitsu where I have achieved a silver medal at a European championship. Travel is another interest of mine, and in 2022, my girlfriend and I were blessed to travel Central and South America for over 100 days. We visited salt flats, expeditioned into the Amazon rainforest, climbed Rainbow Mountain, and surfed three different oceans. A truly magical experience.",
       imgSrc: require('../../../images/me/me5.webp'),
       altText:"me",
     },
     {
       title:"DIY Adventures",
-      text:"Recently I have spent some time learning DIY skills and undertook an exciting (but scary) renovation project. This project has given me an even greater affinity for fixing and problem-solving. It really tested my limits—sometimes learning the easy way, sometimes the hard way. (FYI: just because a floorboard has a hole where a screw used to be, doesn't mean there definitely isn't a water pipe there now. If you drill into it, you may have a new water feature in your freshly decorated room!)",
+      text:"I've recently been honing my DIY skills and undertook an exciting (but scary) renovation project. This has given me an even greater affinity for fixing and problem-solving. It's tested my limits—sometimes learning the easy way, sometimes the hard way. (FYI: if a floorboard has a hole where a screw used to be, that doesn't mean there definitely isn't a pipe there now. If you drill into it, you'll have a new water feature in your freshly decorated room!)",
       imgSrc:require('../../../images/me/me6.webp'),
       altText:"me",
       reverse: true,

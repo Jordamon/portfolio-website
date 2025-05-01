@@ -112,6 +112,12 @@
     position: relative;
 }
 
+.motion-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media screen and (min-width: 1700px){
     .background-container-projects {
         height: 3350px;
