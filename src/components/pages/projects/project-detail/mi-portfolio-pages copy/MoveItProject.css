@@ -1,6 +1,6 @@
 /* General Styles */
 .projects-highlight {
-    width: 100vw;
+    width: 100%;
 }
 
 .portfolio-title-highlight h1 {
@@ -205,6 +205,7 @@
 @media screen and (max-width: 700px) {
     .moveit-projects-container-highlight {
         gap: 50px;
+        margin-left: 0;
     }
     .moveItBtn {
         margin-top: -5vh;
@@ -214,7 +215,10 @@
 
 @media screen and (max-width: 450px) {
     .moveit-projects-container-highlight {
-        margin: 15% 5% 0 5%;
+        margin: 15% auto 0 auto;
+    }
+    .moveit-projects-container-highlight .individual-project-highlight{
+        margin-left: 0;
     }
     .moveit-projects-container-highlight .m1 {
         margin-bottom: 0%; /* Adjusted margin for spacing */
