@@ -209,10 +209,9 @@
     }
     .projects-container .individual-about{
         height: 500px !important;
-        margin-top: 100px;
         left: 0 !important;
         right: 0;
-        margin: 10% auto 3% auto;
+        margin: 15% auto 3% auto;
     }
     .about-container .projects-container {
         margin: 0 0 0 0 !important;
