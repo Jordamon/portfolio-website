@@ -199,7 +199,7 @@
     .individual-project {
         flex-direction: column;
         height: 100%;
-        margin: 3% 3% 10% 3%;
+        margin: 3% auto 10% auto;
     }
     .left img {
         margin-left: 10%;
