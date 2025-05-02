@@ -98,7 +98,7 @@
 }
 
 .moveItBtn {
-    margin-bottom: 5vh;
+    margin-bottom: 0vh;
 }
 
 /* Responsive Design */
@@ -136,8 +136,8 @@
         bottom: 7vh;
     }
     .moveItBtn {
-        margin-top: 10vh;
-        margin-bottom: 10vh;
+        margin-top: 0vh;
+        margin-bottom: 0vh;
     }
 }
 
