@@ -48,7 +48,7 @@ const ReigniteProject = () => {
       {/* Background Sections */}
       <div className="background-container-projects-reignite"></div>
       {/* Title Section */}
-      <div className="portfolio-title-highlight">
+      <div className="portfolio-title">
         <h1>PROJECT PORTFOLIO</h1>
       </div>
 

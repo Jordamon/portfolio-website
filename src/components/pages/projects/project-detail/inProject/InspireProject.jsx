@@ -31,7 +31,7 @@ const InspireProject = () => {
       <div className="background-container"></div>
 
       {/* Title Section */}
-      <div className="portfolio-title-highlight">
+      <div className="portfolio-title">
         <h1>PROJECT PORTFOLIO</h1>
       </div>
 

@@ -42,7 +42,7 @@ const MoveItProject = () => {
   return (
     <div className="projects-highlight">
       <div className="background-container-projects-move-it" />
-      <div className="portfolio-title-highlight">
+      <div className="portfolio-title">
         <h1>PROJECT PORTFOLIO</h1>
       </div>
       <div className="moveit-projects-container-highlight">
