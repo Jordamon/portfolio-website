@@ -180,8 +180,8 @@
         font-size: 32px;
     } 
     .move-it-homepage-img img{
-        min-height: 30vw;
-        min-width: 80vw;
+        min-height: 160px;
+        min-width: 280px;
         position: relative;
         bottom: 30px;
     }

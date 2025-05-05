@@ -1,5 +1,5 @@
 .projects-highlight {
-    width: 100vw;
+    width: 100%;
 }
 
 .portfolio-title-highlight h1 {
@@ -27,7 +27,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin: 7% 10% 0 10%;
+    margin: 7% auto 0 auto;
     padding-bottom: 5%;
 }
 

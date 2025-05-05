@@ -60,9 +60,9 @@
 .i1 {
     margin-top: 5%;
 }
-/* .i1 img {
+.i1 img {
     height: 5%;
-} */
+}
 .i2 {
     margin-top: 0%;
 }
@@ -89,7 +89,6 @@
 @media screen and (max-width: 500px) {
     .inspire .projects-container{
         gap: 50px;
-        margin-top: 5% !important;
     }
     .inspire .individual-project{
         height: 400px;
@@ -97,8 +96,5 @@
     .inspireBtn{
         margin-top: -40px;
         margin-bottom: 0vh;
-    }
-    .inspire .projects-container .project-text{
-        margin-bottom: 0;
     }
 }
