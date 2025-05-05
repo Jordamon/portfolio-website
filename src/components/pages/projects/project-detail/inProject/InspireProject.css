@@ -89,11 +89,10 @@
 @media screen and (max-width: 500px) {
     .inspire .projects-container{
         gap: 50px;
-        margin-top: 20% !important;
+        margin-top: 5% !important;
     }
     .inspire .individual-project{
-        height: 300px;
-        justify-content: center;
+        height: 400px;
     }
     .inspireBtn{
         margin-top: -40px;
