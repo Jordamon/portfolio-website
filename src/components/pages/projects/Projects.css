@@ -210,7 +210,7 @@
     .projects-container .individual-project {
         width: 90%;
         position: relative;
-        left: 10px;
+        left: 0;
         height: 300px;
     }
 }

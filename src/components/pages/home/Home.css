@@ -377,7 +377,7 @@ h2 {
     }
     .projects-container{
         width: 90%;
-        margin: 5% auto 0 auto !important;
+        margin: 5% auto 0 auto;
     }
     .home .individual-project {
         height: 300px !important;
