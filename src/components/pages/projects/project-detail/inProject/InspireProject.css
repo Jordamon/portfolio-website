@@ -1,6 +1,5 @@
 .inspire .background-container{
     background-position: 10% 50%;
-    width: 100vw;
 }
 
 .projects-highlight {
@@ -90,14 +89,11 @@
 @media screen and (max-width: 500px) {
     .inspire .projects-container{
         gap: 50px;
-        margin-top: 15% !important;
+        margin-top: 20% !important;
     }
     .inspire .individual-project{
         height: 300px;
         justify-content: center;
-    }
-    .inspire .move-it-homepage-img img {
-        bottom: 10px;
     }
     .inspireBtn{
         margin-top: -40px;
