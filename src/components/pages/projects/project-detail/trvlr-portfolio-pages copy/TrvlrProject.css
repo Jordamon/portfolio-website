@@ -21,7 +21,7 @@
 }
 
 .trvlr-projects-container-highlight {
-    width: 75%;
+    width: 85%;
     min-height: 100vh; /* Replace height: 1500px with min-height */
     display: flex;
     flex-direction: column;
