@@ -398,6 +398,7 @@ h2 {
     }
     .explore-btn{
         margin-top: 15%;
+        min-width: 80%;
     }
 }
 /* @media screen and (max-width: 900px) and (orientation: landscape) {
